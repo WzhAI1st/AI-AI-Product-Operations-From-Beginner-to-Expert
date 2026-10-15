@@ -1,0 +1,437 @@
+{
+  "slug": "wuthering-waves",
+  "name": "鸣潮",
+  "source": "steam",
+  "steam_appid": 3513350,
+  "window_days": 30,
+  "comment_count": 44,
+  "positive_count": 19,
+  "negative_count": 25,
+  "positive_ratio": 0.4318,
+  "sentiment_score": -0.1364,
+  "tagged_ratio": 0.4545,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 3
+    },
+    {
+      "date": "2026-09-17",
+      "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 1
+    },
+    {
+      "date": "2026-09-20",
+      "count": 2
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 1
+    },
+    {
+      "date": "2026-09-23",
+      "count": 2
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 2
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 2
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1
+    },
+    {
+      "date": "2026-10-02",
+      "count": 2
+    },
+    {
+      "date": "2026-10-03",
+      "count": 0
+    },
+    {
+      "date": "2026-10-04",
+      "count": 3
+    },
+    {
+      "date": "2026-10-05",
+      "count": 7
+    },
+    {
+      "date": "2026-10-06",
+      "count": 3
+    },
+    {
+      "date": "2026-10-07",
+      "count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 0
+    },
+    {
+      "date": "2026-10-09",
+      "count": 2
+    },
+    {
+      "date": "2026-10-10",
+      "count": 2
+    },
+    {
+      "date": "2026-10-11",
+      "count": 2
+    },
+    {
+      "date": "2026-10-12",
+      "count": 1
+    },
+    {
+      "date": "2026-10-13",
+      "count": 1
+    },
+    {
+      "date": "2026-10-14",
+      "count": 2
+    },
+    {
+      "date": "2026-10-15",
+      "count": 0
+    }
+  ],
+  "anomaly_days": [
+    "2026-10-05"
+  ],
+  "categories": [
+    {
+      "id": "monetization",
+      "name": "氪金与卡池",
+      "count": 9,
+      "ratio": 0.3462,
+      "score": 10.8,
+      "examples": [
+        {
+          "text": "垃圾，之前因为一直吃保底退坑，现在回来抽一个0+1角色抽了150抽，武器72抽还没出，72抽有的人抽三个限定都要不了这么多，我真的日咯",
+          "voted_up": false,
+          "votes_up": 16,
+          "created_at": 1790352148,
+          "playtime_hours": 94.4,
+          "categories": [
+            "monetization"
+          ]
+        },
+        {
+          "text": "市面上的3D二游我也算是都玩过了，对我个人来说是最好的二游，剧情和演出方面1.0真的很烂，从1.3开始算是慢慢变好了，大世界方面相比原神很轻量，我很喜欢 氪金…",
+          "voted_up": true,
+          "votes_up": 5,
+          "created_at": 1789644527,
+          "playtime_hours": 249.1,
+          "categories": [
+            "monetization",
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "只抽一个本体就和垃圾没差别变相的逼氪，这么多年了国产游戏还是这样没有任何改变，核心就是没钱玩你麻痹。",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1791137390,
+          "playtime_hours": 3.9,
+          "categories": [
+            "monetization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story_character",
+      "name": "剧情与角色",
+      "count": 10,
+      "ratio": 0.3846,
+      "score": 9.0,
+      "examples": [
+        {
+          "text": "1k下去一个常驻一个up，穷逼不配玩 剧情围绕一个新角色来卖卡，活动关卡围绕当期角色给强化，在大世界二游都卖角色的情况下无非是看谁的视听体验更好，角色更好看，…",
+          "voted_up": false,
+          "votes_up": 28,
+          "created_at": 1790095572,
+          "playtime_hours": 77.8,
+          "categories": [
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "市面上的3D二游我也算是都玩过了，对我个人来说是最好的二游，剧情和演出方面1.0真的很烂，从1.3开始算是慢慢变好了，大世界方面相比原神很轻量，我很喜欢 氪金…",
+          "voted_up": true,
+          "votes_up": 5,
+          "created_at": 1789644527,
+          "playtime_hours": 249.1,
+          "categories": [
+            "monetization",
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "剧情又臭又长",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1791624967,
+          "playtime_hours": 103.0,
+          "categories": [
+            "story_character"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bug_perf",
+      "name": "BUG 与性能",
+      "count": 3,
+      "ratio": 0.1154,
+      "score": 3.3,
+      "examples": [
+        {
+          "text": "优化是个非常大的问题",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1790803421,
+          "playtime_hours": 384.6,
+          "categories": [
+            "bug_perf"
+          ]
+        },
+        {
+          "text": "为了玩鸣潮买新电脑，从3.0入坑到3.7真的受不了，从3.5开始卡到受不了，一款游戏堆料再多，美术再好，可是顶不了玩法无聊，到后面剧情看起来大同小异，虽然之前…",
+          "voted_up": false,
+          "votes_up": 0,
+          "created_at": 1791132857,
+          "playtime_hours": 253.4,
+          "categories": [
+            "bug_perf",
+            "story_character"
+          ]
+        },
+        {
+          "text": "3.7版本特意来给这傻逼心钥井差评，究极无敌答辩箱庭，井中井中井搁这玩套娃，机关设计各种bug打不开，空气墙卡死你，宝箱藏的怕你找到，越玩越烦躁想把手柄都砸了…",
+          "voted_up": false,
+          "votes_up": 0,
+          "created_at": 1791075013,
+          "playtime_hours": 336.5,
+          "categories": [
+            "bug_perf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 2,
+      "ratio": 0.0769,
+      "score": 2.2,
+      "examples": [
+        {
+          "text": "1k下去一个常驻一个up，穷逼不配玩 剧情围绕一个新角色来卖卡，活动关卡围绕当期角色给强化，在大世界二游都卖角色的情况下无非是看谁的视听体验更好，角色更好看，…",
+          "voted_up": false,
+          "votes_up": 28,
+          "created_at": 1790095572,
+          "playtime_hours": 77.8,
+          "categories": [
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "市面上的3D二游我也算是都玩过了，对我个人来说是最好的二游，剧情和演出方面1.0真的很烂，从1.3开始算是慢慢变好了，大世界方面相比原神很轻量，我很喜欢 氪金…",
+          "voted_up": true,
+          "votes_up": 5,
+          "created_at": 1789644527,
+          "playtime_hours": 249.1,
+          "categories": [
+            "monetization",
+            "story_character",
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "数值与平衡",
+      "count": 1,
+      "ratio": 0.0385,
+      "score": 1.0,
+      "examples": [
+        {
+          "text": "可以接受的最后一个抽卡游戏。除了氪金抽卡变强、数值膨胀等常见问题外，战斗动作爽快、开放世界漂亮、角色设计不错，免费只抽动作设计好的角色，只玩全息boss战交互…",
+          "voted_up": true,
+          "votes_up": 1,
+          "created_at": 1791764293,
+          "playtime_hours": 3.8,
+          "categories": [
+            "balance",
+            "monetization",
+            "story_character"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "name": "外挂与环境",
+      "count": 1,
+      "ratio": 0.0385,
+      "score": 1.0,
+      "examples": [
+        {
+          "text": "针对原神的大量举报下架版权炮事件其实都是米哈游和op们精心设计自导自演的一场阴谋，目的是为了抹黑鸣潮官方和玩家给腾讯泼脏水，通过这种方式败坏鸣潮的路人缘来阻止…",
+          "voted_up": false,
+          "votes_up": 0,
+          "created_at": 1789899379,
+          "playtime_hours": 5.4,
+          "categories": [
+            "environment"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "1k下去一个常驻一个up，穷逼不配玩 剧情围绕一个新角色来卖卡，活动关卡围绕当期角色给强化，在大世界二游都卖角色的情况下无非是看谁的视听体验更好，角色更好看，鸣潮无疑在里面算佼佼者 过完剧情最后回到角色上却抽不到，氪的价格贵的一批，而且氪完还是抽不到，有点像有钱没处花",
+      "voted_up": false,
+      "votes_up": 28,
+      "created_at": 1790095572,
+      "playtime_hours": 77.8,
+      "categories": [
+        "story_character",
+        "operation"
+      ]
+    },
+    {
+      "text": "垃圾，之前因为一直吃保底退坑，现在回来抽一个0+1角色抽了150抽，武器72抽还没出，72抽有的人抽三个限定都要不了这么多，我真的日咯",
+      "voted_up": false,
+      "votes_up": 16,
+      "created_at": 1790352148,
+      "playtime_hours": 94.4,
+      "categories": [
+        "monetization"
+      ]
+    },
+    {
+      "text": "养成越来越难，这次心狐版本更是逆天，那个4C爆率没参毒我是不信，我刷照世之心套给我爆一堆别的，最离谱的时候4.5个才出一个照心，而且几乎没有爆伤主词条，你游双爆也是跟库洛父母一样有一个没一个的，整频器调频仪的吃相太难看了。",
+      "voted_up": false,
+      "votes_up": 5,
+      "created_at": 1790769567,
+      "playtime_hours": 0.3,
+      "categories": []
+    },
+    {
+      "text": "剧情又臭又长",
+      "voted_up": false,
+      "votes_up": 3,
+      "created_at": 1791624967,
+      "playtime_hours": 103.0,
+      "categories": [
+        "story_character"
+      ]
+    },
+    {
+      "text": "只抽一个本体就和垃圾没差别变相的逼氪，这么多年了国产游戏还是这样没有任何改变，核心就是没钱玩你麻痹。",
+      "voted_up": false,
+      "votes_up": 3,
+      "created_at": 1791137390,
+      "playtime_hours": 3.9,
+      "categories": [
+        "monetization"
+      ]
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "市面上的3D二游我也算是都玩过了，对我个人来说是最好的二游，剧情和演出方面1.0真的很烂，从1.3开始算是慢慢变好了，大世界方面相比原神很轻量，我很喜欢 氪金和抽卡方面，每个版本活动挺多的，福利也挺好，个人算是中氪玩家，每月大小月卡+3个礼包，差不多300多，因为鸣潮抽卡副产物能换两个共鸣链，所以以我这个氪度算是体验很好 至于玩法和战斗，都玩二游了就把这当个乐吧，都是本质播片",
+      "voted_up": true,
+      "votes_up": 5,
+      "created_at": 1789644527,
+      "playtime_hours": 249.1,
+      "categories": [
+        "monetization",
+        "story_character",
+        "operation"
+      ]
+    },
+    {
+      "text": "下载过两次吧，忘了第一次是怎么样了，好像是前期对我没啥吸引力所以只浅尝辄止了一下就卸载了，这第二次下载简直绝了。 这沟槽的游戏内下载，速度慢的一批，等了半小时以上吧，条才过半（虽然我挂着别的东西），最后没啥耐心卸载了。🤐",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1791618082,
+      "playtime_hours": 4.7,
+      "categories": []
+    },
+    {
+      "text": "欧皇号真舒服，必须支持啊。不开光追画面风景也很好看，游戏内自带全局滤镜不吃大性能提升画面，真的有心了",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1791140620,
+      "playtime_hours": 319.2,
+      "categories": []
+    },
+    {
+      "text": "可以接受的最后一个抽卡游戏。除了氪金抽卡变强、数值膨胀等常见问题外，战斗动作爽快、开放世界漂亮、角色设计不错，免费只抽动作设计好的角色，只玩全息boss战交互感不错，过一过剧情，总体还算可以接受。",
+      "voted_up": true,
+      "votes_up": 1,
+      "created_at": 1791764293,
+      "playtime_hours": 3.8,
+      "categories": [
+        "balance",
+        "monetization",
+        "story_character"
+      ]
+    },
+    {
+      "text": "好玩爱玩",
+      "voted_up": true,
+      "votes_up": 1,
+      "created_at": 1791557127,
+      "playtime_hours": 47.2,
+      "categories": []
+    }
+  ],
+  "fetch_stop_reason": "window_edge"
+}

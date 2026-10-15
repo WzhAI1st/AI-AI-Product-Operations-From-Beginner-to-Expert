@@ -1,0 +1,493 @@
+{
+  "slug": "delta-force",
+  "name": "三角洲行动",
+  "source": "steam",
+  "steam_appid": 2507950,
+  "window_days": 30,
+  "comment_count": 738,
+  "positive_count": 239,
+  "negative_count": 499,
+  "positive_ratio": 0.3238,
+  "sentiment_score": -0.3523,
+  "tagged_ratio": 0.2046,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 0
+    },
+    {
+      "date": "2026-09-17",
+      "count": 0
+    },
+    {
+      "date": "2026-09-18",
+      "count": 11
+    },
+    {
+      "date": "2026-09-19",
+      "count": 36
+    },
+    {
+      "date": "2026-09-20",
+      "count": 20
+    },
+    {
+      "date": "2026-09-21",
+      "count": 22
+    },
+    {
+      "date": "2026-09-22",
+      "count": 26
+    },
+    {
+      "date": "2026-09-23",
+      "count": 15
+    },
+    {
+      "date": "2026-09-24",
+      "count": 25
+    },
+    {
+      "date": "2026-09-25",
+      "count": 26
+    },
+    {
+      "date": "2026-09-26",
+      "count": 27
+    },
+    {
+      "date": "2026-09-27",
+      "count": 63
+    },
+    {
+      "date": "2026-09-28",
+      "count": 27
+    },
+    {
+      "date": "2026-09-29",
+      "count": 27
+    },
+    {
+      "date": "2026-09-30",
+      "count": 23
+    },
+    {
+      "date": "2026-10-01",
+      "count": 44
+    },
+    {
+      "date": "2026-10-02",
+      "count": 35
+    },
+    {
+      "date": "2026-10-03",
+      "count": 34
+    },
+    {
+      "date": "2026-10-04",
+      "count": 27
+    },
+    {
+      "date": "2026-10-05",
+      "count": 37
+    },
+    {
+      "date": "2026-10-06",
+      "count": 34
+    },
+    {
+      "date": "2026-10-07",
+      "count": 27
+    },
+    {
+      "date": "2026-10-08",
+      "count": 14
+    },
+    {
+      "date": "2026-10-09",
+      "count": 15
+    },
+    {
+      "date": "2026-10-10",
+      "count": 17
+    },
+    {
+      "date": "2026-10-11",
+      "count": 30
+    },
+    {
+      "date": "2026-10-12",
+      "count": 21
+    },
+    {
+      "date": "2026-10-13",
+      "count": 24
+    },
+    {
+      "date": "2026-10-14",
+      "count": 22
+    },
+    {
+      "date": "2026-10-15",
+      "count": 9
+    }
+  ],
+  "anomaly_days": [
+    "2026-09-27"
+  ],
+  "categories": [
+    {
+      "id": "bug_perf",
+      "name": "BUG 与性能",
+      "count": 58,
+      "ratio": 0.2843,
+      "score": 63.8,
+      "examples": [
+        {
+          "text": "很好的游戏，下载完成之后我的电脑和鼠标时常卡顿。",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1792036596,
+          "playtime_hours": 0.4,
+          "categories": [
+            "bug_perf"
+          ]
+        },
+        {
+          "text": "好的，依旧Steam玩家不是人，依旧挂多，依旧ELO机制，依旧全装匹跑刀队友，依旧弘扬背刺，依旧宣传鼠鼠文化，依旧撤不出有惩罚，依旧撤出去有惩罚，依旧想要得吃…",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1791661857,
+          "playtime_hours": 2525.6,
+          "categories": [
+            "balance",
+            "bug_perf",
+            "operation"
+          ]
+        },
+        {
+          "text": "外挂是满天飞的，环境是最阴间的，bug是不改的，机制是恶心的，更新占内存是越来越多的，ACE反作弊是什么都扫的，不玩后悔几天，玩了后悔一辈子。之前硬盘被扫包了…",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1790534880,
+          "playtime_hours": 569.6,
+          "categories": [
+            "balance",
+            "bug_perf",
+            "environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 57,
+      "ratio": 0.2794,
+      "score": 62.7,
+      "examples": [
+        {
+          "text": "想不被这游戏搞崩心态，就别做任何活动和任务。就单纯的玩。",
+          "voted_up": true,
+          "votes_up": 21,
+          "created_at": 1791100503,
+          "playtime_hours": 685.0,
+          "categories": [
+            "operation"
+          ]
+        },
+        {
+          "text": "🎮 [b]战利品要活着带走[/b] 免费在线射击游戏，烽火地带可独自或以最多 3 人小队搜集物资、交战撤离；全面战场则提供步兵与载具参与的 64 人对抗。 […",
+          "voted_up": true,
+          "votes_up": 4,
+          "created_at": 1791697184,
+          "playtime_hours": 195.4,
+          "categories": [
+            "balance",
+            "operation",
+            "environment"
+          ]
+        },
+        {
+          "text": "死冯游戏，策划每亩",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1791970000,
+          "playtime_hours": 1578.0,
+          "categories": [
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "name": "外挂与环境",
+      "count": 56,
+      "ratio": 0.2745,
+      "score": 56.0,
+      "examples": [
+        {
+          "text": "玩这游戏也是享福了，五星好评给他安排起来，玩了这么久的时长也是有口福了，我的话也算是把青春拿去挥霍了，我呢玩这个游戏也算是玩对了，ACE的话也是时不时来性骚扰…",
+          "voted_up": false,
+          "votes_up": 12,
+          "created_at": 1791299094,
+          "playtime_hours": 720.8,
+          "categories": [
+            "environment"
+          ]
+        },
+        {
+          "text": "🎮 [b]战利品要活着带走[/b] 免费在线射击游戏，烽火地带可独自或以最多 3 人小队搜集物资、交战撤离；全面战场则提供步兵与载具参与的 64 人对抗。 […",
+          "voted_up": true,
+          "votes_up": 4,
+          "created_at": 1791697184,
+          "playtime_hours": 195.4,
+          "categories": [
+            "balance",
+            "operation",
+            "environment"
+          ]
+        },
+        {
+          "text": "外挂是满天飞的，环境是最阴间的，bug是不改的，机制是恶心的，更新占内存是越来越多的，ACE反作弊是什么都扫的，不玩后悔几天，玩了后悔一辈子。之前硬盘被扫包了…",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1790534880,
+          "playtime_hours": 569.6,
+          "categories": [
+            "balance",
+            "bug_perf",
+            "environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "数值与平衡",
+      "count": 25,
+      "ratio": 0.1225,
+      "score": 25.0,
+      "examples": [
+        {
+          "text": "🎮 [b]战利品要活着带走[/b] 免费在线射击游戏，烽火地带可独自或以最多 3 人小队搜集物资、交战撤离；全面战场则提供步兵与载具参与的 64 人对抗。 […",
+          "voted_up": true,
+          "votes_up": 4,
+          "created_at": 1791697184,
+          "playtime_hours": 195.4,
+          "categories": [
+            "balance",
+            "operation",
+            "environment"
+          ]
+        },
+        {
+          "text": "好的，依旧Steam玩家不是人，依旧挂多，依旧ELO机制，依旧全装匹跑刀队友，依旧弘扬背刺，依旧宣传鼠鼠文化，依旧撤不出有惩罚，依旧撤出去有惩罚，依旧想要得吃…",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1791661857,
+          "playtime_hours": 2525.6,
+          "categories": [
+            "balance",
+            "bug_perf",
+            "operation"
+          ]
+        },
+        {
+          "text": "外挂是满天飞的，环境是最阴间的，bug是不改的，机制是恶心的，更新占内存是越来越多的，ACE反作弊是什么都扫的，不玩后悔几天，玩了后悔一辈子。之前硬盘被扫包了…",
+          "voted_up": false,
+          "votes_up": 3,
+          "created_at": 1790534880,
+          "playtime_hours": 569.6,
+          "categories": [
+            "balance",
+            "bug_perf",
+            "environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monetization",
+      "name": "氪金与卡池",
+      "count": 4,
+      "ratio": 0.0196,
+      "score": 4.8,
+      "examples": [
+        {
+          "text": "腾讯用三角洲这个著名的IP开发了一款适合只中国大陆的缺少创新和游戏审美只知道让人打卡和氪金的儿童游戏，很多玩这个游戏的人应该都不知道游戏里那个三角洲光碟是什么。",
+          "voted_up": false,
+          "votes_up": 60,
+          "created_at": 1790522734,
+          "playtime_hours": 131.3,
+          "categories": [
+            "monetization"
+          ]
+        },
+        {
+          "text": "外挂不封，专抓绿玩，爆率低下，垃圾活动， 垃圾策划运营，不管玩家死活，更不管Steam玩家感受，一点不优化Steam玩家体验，Steam依据低人一等。 我是用…",
+          "voted_up": false,
+          "votes_up": 2,
+          "created_at": 1790522174,
+          "playtime_hours": 777.7,
+          "categories": [
+            "balance",
+            "monetization",
+            "bug_perf",
+            "operation",
+            "environment"
+          ]
+        },
+        {
+          "text": "葛朗台一样的策划、赌场一样的游戏环境、神经病一样的人机、二游抽卡一样的爆率，跟朋友玩，起码还能聊聊天，没队友的我建议请勿下载。",
+          "voted_up": false,
+          "votes_up": 0,
+          "created_at": 1791229663,
+          "playtime_hours": 1648.9,
+          "categories": [
+            "monetization",
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story_character",
+      "name": "剧情与角色",
+      "count": 4,
+      "ratio": 0.0196,
+      "score": 3.6,
+      "examples": [
+        {
+          "text": "凡是不能跳过剧情的游戏在我看来都是垃圾，搞点蚊子腿奖励非得让你看个又臭又长的剧情还不能跳过，不想参加还弄个小红点恶心你。神人策划",
+          "voted_up": false,
+          "votes_up": 2,
+          "created_at": 1790590897,
+          "playtime_hours": 3.9,
+          "categories": [
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "不敢相信，一款主打英雄射击的游戏上线一年，靶场居然还不能测试技能。 CS、彩六、PUBG、OW 的音效定位都很清晰，闭上眼睛听到的东西和你真正看到的是一致的；…",
+          "voted_up": false,
+          "votes_up": 1,
+          "created_at": 1790563258,
+          "playtime_hours": 238.1,
+          "categories": [
+            "bug_perf",
+            "story_character",
+            "environment"
+          ]
+        },
+        {
+          "text": "还行吧只能说，搜打撤基本上和暗区突围一样，没什么新意。玩两把就那么回事了。大战场整个大乱斗不如战地系列。还有一个CS模式，还有一个剧情模式黑鹰坠落，基本上没啥…",
+          "voted_up": true,
+          "votes_up": 0,
+          "created_at": 1791474161,
+          "playtime_hours": 8.7,
+          "categories": [
+            "story_character"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "ACE是最恶心的软件，tx公司也是我国最没有道德的抄袭和流氓公司之一。",
+      "voted_up": false,
+      "votes_up": 116,
+      "created_at": 1790666553,
+      "playtime_hours": 2531.4,
+      "categories": []
+    },
+    {
+      "text": "腾讯用三角洲这个著名的IP开发了一款适合只中国大陆的缺少创新和游戏审美只知道让人打卡和氪金的儿童游戏，很多玩这个游戏的人应该都不知道游戏里那个三角洲光碟是什么。",
+      "voted_up": false,
+      "votes_up": 60,
+      "created_at": 1790522734,
+      "playtime_hours": 131.3,
+      "categories": [
+        "monetization"
+      ]
+    },
+    {
+      "text": "很脑残的游戏，动态爆率-你杀敌的数量和出红的概率呈反比-令人红温，霸王条款强制用户装ace，病毒软件恶意扫描并破坏你的硬盘，然而对作弊者完全没有任何作用。畸形的游戏伤害逻辑和地图设计导致反人性的对抗（背刺，堵桥，当老六修脚等）肆虐，正常的起装备对抗便容易成为老鼠的收获。",
+      "voted_up": false,
+      "votes_up": 39,
+      "created_at": 1790486728,
+      "playtime_hours": 7.7,
+      "categories": []
+    },
+    {
+      "text": "玩这游戏也是享福了，五星好评给他安排起来，玩了这么久的时长也是有口福了，我的话也算是把青春拿去挥霍了，我呢玩这个游戏也算是玩对了，ACE的话也是时不时来性骚扰一下，也是非常的流畅，防外挂也是防到了一些滚木，爆率也是非常的高啊，要是没有动态爆率的话就更好了，只要我还在玩嘛，官方就给我安排得明明白白白白明明的，男女老少又是玩得开怀大笑的一天了，我也是享福了",
+      "voted_up": false,
+      "votes_up": 12,
+      "created_at": 1791299094,
+      "playtime_hours": 720.8,
+      "categories": [
+        "environment"
+      ]
+    },
+    {
+      "text": "完全的垃圾，粪坑里镀了层金的超级巨屎，但你要问了，我为什么还玩了一千多小时？那我只能说当你把这坨屎吃下去之后发现竟然开始有点上瘾，然后就是身边朋友莫名其妙围着这坨巨屎在旋转，为了拯救自己的电子阳痿，你不得不加入他们，那既然有这么庞大的吃屎群体，玩家社区自然更是喜闻乐见的，各路牛鬼蛇神在此集结，另外，切记，如果你想入坑，不要玩steam端，不要玩steam端，不要玩steam端。好了，那么说了这么多，三角洲这款游戏有什么优点吗，有的兄弟，有的，你只要玩wegame端那就是优点…",
+      "voted_up": false,
+      "votes_up": 4,
+      "created_at": 1791949976,
+      "playtime_hours": 1185.0,
+      "categories": []
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "太好玩了，贷了几十万款充值哈夫币，老婆也跑了，房子也没了，现在就剩我一个人默默坐在几块钱的出租屋里，用租来的电脑前玩游戏。",
+      "voted_up": true,
+      "votes_up": 396,
+      "created_at": 1789819340,
+      "playtime_hours": 0.6,
+      "categories": []
+    },
+    {
+      "text": "好无聊，来来回回就那几个一个两个的小红，那种9格以上的摸两个月都没见过，再不出9格大红我去暗区突围玩了",
+      "voted_up": true,
+      "votes_up": 51,
+      "created_at": 1790655411,
+      "playtime_hours": 545.7,
+      "categories": []
+    },
+    {
+      "text": "想不被这游戏搞崩心态，就别做任何活动和任务。就单纯的玩。",
+      "voted_up": true,
+      "votes_up": 21,
+      "created_at": 1791100503,
+      "playtime_hours": 685.0,
+      "categories": [
+        "operation"
+      ]
+    },
+    {
+      "text": "还行。就是爆率低，挂多，经常黑屋，不值得推荐而已。。",
+      "voted_up": true,
+      "votes_up": 14,
+      "created_at": 1790668880,
+      "playtime_hours": 983.4,
+      "categories": []
+    },
+    {
+      "text": "🎮 [b]战利品要活着带走[/b] 免费在线射击游戏，烽火地带可独自或以最多 3 人小队搜集物资、交战撤离；全面战场则提供步兵与载具参与的 64 人对抗。 [list] [*][b]✅ 开玩：[/b]想免费试试塔科夫式的搜打撤，享受带着战利品寻找退路的紧张感。 [*][b]❌ 绕开：[/b]主要想玩搜打撤，又希望下班后轻松消遣；撤离失败可能让一局的收获落空。 [/list] [b]⚠️ 游玩前注意：[/b]对隐私比较敏感的人得注意，本作使用 ACE 内核级反作弊。 [b]—…",
+      "voted_up": true,
+      "votes_up": 4,
+      "created_at": 1791697184,
+      "playtime_hours": 195.4,
+      "categories": [
+        "balance",
+        "operation",
+        "environment"
+      ]
+    }
+  ],
+  "fetch_stop_reason": "cap"
+}

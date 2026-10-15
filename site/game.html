@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>游戏详情 · 舆情与槽点</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/vendor/echarts.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← 返回纵览</a>
+
+  <div class="head">
+    <h1 id="title">加载中…</h1>
+    <div class="sub" id="meta"></div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="section">
+    <h2>声量趋势 <span class="hint">按日统计的评测条数，红点为声量拐点</span></h2>
+    <div class="panel"><div class="chart" id="trendChart"></div></div>
+  </div>
+
+  <div class="section">
+    <h2>槽点分布 <span class="hint">按「命中数 × 类别权重」排序，一条评测可命中多类</span></h2>
+    <div class="panel"><div class="chart" id="categoryChart"></div></div>
+  </div>
+
+  <div class="section">
+    <h2>槽点原声 <span class="hint">每类取点赞最高的代表评测</span></h2>
+    <div class="panel" id="categoryDetails"></div>
+  </div>
+
+  <div class="section">
+    <h2>最受认可的差评 <span class="hint">按点赞数排序，反映共识性槽点</span></h2>
+    <div class="reviews" id="topNegative"></div>
+  </div>
+
+  <div class="section">
+    <h2>最受认可的好评 <span class="hint">按点赞数排序，反映共识性优点</span></h2>
+    <div class="reviews" id="topPositive"></div>
+  </div>
+
+  <div class="note" id="note"></div>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+function renderReview(review, categoryNames) {
+  const cls = review.voted_up ? "pos" : "neg";
+  const tags = (review.categories || [])
+    .map((id) => `<span class="tag">${categoryNames[id] || id}</span>`)
+    .join(" ");
+  return `<div class="review ${cls}">
+    <div class="meta">
+      <span>${review.voted_up ? "好评" : "差评"}</span>
+      <span>👍 ${review.votes_up}</span>
+      <span>游玩 ${review.playtime_hours} 小时</span>
+      <span>${formatTime(review.created_at)}</span>
+    </div>
+    <div class="text">${review.text}</div>
+    <div class="taglist">${tags}</div>
+  </div>`;
+}
+
+function renderTrend(game) {
+  const anomaly = new Set(game.anomaly_days);
+  const labels = game.daily.map((item) => formatDate(item.date));
+  const chart = mountChart("trendChart");
+
+  chart.setOption({
+    tooltip: Object.assign({ trigger: "axis" }, TOOLTIP),
+    grid: { left: 8, right: 24, top: 24, bottom: 8, containLabel: true },
+    xAxis: categoryAxis(labels),
+    yAxis: valueAxis(),
+    series: [
+      {
+        name: "评测条数",
+        type: "line",
+        smooth: true,
+        symbol: "none",
+        data: game.daily.map((item) => item.count),
+        lineStyle: { color: COLORS.accent, width: 2 },
+        areaStyle: { color: "rgba(76,141,255,.12)" },
+      },
+      {
+        name: "声量拐点",
+        type: "scatter",
+        symbolSize: 10,
+        data: game.daily
+          .map((item, index) => (anomaly.has(item.date) ? [index, item.count] : null))
+          .filter(Boolean),
+        itemStyle: { color: COLORS.neg },
+      },
+    ],
+  });
+  window.addEventListener("resize", () => chart.resize());
+}
+
+function renderCategories(game, categoryNames) {
+  const rows = game.categories;
+  if (!rows.length) {
+    document.getElementById("categoryChart").outerHTML = '<div class="empty">没有任何评测命中槽点关键词。</div>';
+    document.getElementById("categoryDetails").innerHTML = '<div class="empty">无数据</div>';
+    return;
+  }
+
+  const chart = mountChart("categoryChart");
+  chart.setOption({
+    tooltip: Object.assign({ trigger: "axis", axisPointer: { type: "shadow" } }, TOOLTIP),
+    grid: { left: 8, right: 48, top: 16, bottom: 8, containLabel: true },
+    xAxis: valueAxis(),
+    yAxis: categoryAxis(rows.map((row) => row.name)),
+    series: [{
+      type: "bar",
+      barWidth: 16,
+      data: rows.map((row) => ({
+        value: row.count,
+        itemStyle: { color: COLORS.accent, borderRadius: 3 },
+      })),
+      label: { show: true, position: "right", color: COLORS.muted, formatter: (p) => `${p.value} 条` },
+    }],
+  });
+  window.addEventListener("resize", () => chart.resize());
+
+  document.getElementById("categoryDetails").innerHTML = rows.map((row) => `
+    <div class="taglist">
+      <h3>${row.name} <span>命中 ${row.count} 条 · 占已打标 ${pct(row.ratio)} · 权重分 ${row.score}</span></h3>
+      <div class="reviews">${row.examples.map((review) => renderReview(review, categoryNames)).join("")}</div>
+    </div>`).join("");
+}
+
+function renderList(targetId, reviews, categoryNames, emptyText) {
+  const node = document.getElementById(targetId);
+  node.innerHTML = reviews.length
+    ? reviews.map((review) => renderReview(review, categoryNames)).join("")
+    : `<div class="empty">${emptyText}</div>`;
+}
+
+(async () => {
+  const slug = new URLSearchParams(location.search).get("slug");
+  if (!slug) {
+    document.getElementById("title").textContent = "缺少 slug 参数";
+    return;
+  }
+
+  try {
+    const game = await loadJson(`games/${encodeURIComponent(slug)}.json`);
+
+    document.title = `${game.name} · 舆情与槽点`;
+    document.getElementById("title").textContent = `${game.name} 舆情与槽点`;
+    document.getElementById("meta").innerHTML =
+      `数据源 <b>${game.source}</b>`
+      + (game.steam_appid ? ` · appid <b>${game.steam_appid}</b>` : "")
+      + ` · 时间窗 <b>${game.window_days} 天</b>`;
+
+    const scoreCls = scoreClass(game.sentiment_score);
+    document.getElementById("stats").innerHTML = [
+      statCard("有效评测", game.comment_count),
+      statCard("好评率", pct(game.positive_ratio), game.positive_ratio >= 0.5 ? "pos" : "neg"),
+      statCard("情绪分", game.sentiment_score.toFixed(2), scoreCls),
+      statCard("槽点命中率", pct(game.tagged_ratio)),
+    ].join("");
+
+    const categoryNames = Object.fromEntries(game.categories.map((row) => [row.id, row.name]));
+
+    renderTrend(game);
+    renderCategories(game, categoryNames);
+    renderList("topNegative", game.top_negative, categoryNames, "没有差评样本。");
+    renderList("topPositive", game.top_positive, categoryNames, "没有好评样本。");
+
+    document.getElementById("note").innerHTML =
+      `共抓取 ${game.comment_count} 条有效评测，其中差评 ${game.negative_count} 条、好评 ${game.positive_count} 条。`
+      + `情绪极性来自 Steam 官方好评/差评标记，非模型推断。`
+      + (game.anomaly_days.length
+        ? `声量拐点：${game.anomaly_days.map(formatDay).join("、")}。`
+        : "时间窗内未检测到声量拐点。")
+      + (game.fetch_stop_reason === "cap"
+        ? `<b>注意：</b>本轮抓取命中条数上限，时间窗早期日期的「0 条」是没有抓到，不代表当天没有评测；调大 config/settings.yaml 里的 max_comments_per_game 可消除该偏差。`
+        : `本轮抓取${game.fetch_stop_reason === "window_edge" ? "已翻到时间窗边界" : "已取完该语言全部评测"}，时间窗内数据完整。`)
+      + `评测作者身份已做哈希假名化，原始账号信息不落盘。`;
+  } catch (error) {
+    document.getElementById("title").textContent = "加载失败";
+    showError("topPositive", error);
+  }
+})();
+</script>
+</body>
+</html>

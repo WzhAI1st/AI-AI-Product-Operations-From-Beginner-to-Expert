@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>游戏舆情与槽点纵览</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/vendor/echarts.min.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div class="head">
+    <h1>游戏舆情与槽点纵览</h1>
+    <div class="sub" id="meta">加载中…</div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="section">
+    <h2>情绪分横向对比 <span class="hint">值域 -1 ~ 1，越靠左越负面</span></h2>
+    <div class="panel"><div class="chart" id="sentimentChart"></div></div>
+  </div>
+
+  <div class="section">
+    <h2>游戏明细 <span class="hint">点击卡片进入详情</span></h2>
+    <div class="cards" id="cards"></div>
+  </div>
+
+  <div class="note" id="note"></div>
+</div>
+
+<script src="assets/app.js"></script>
+<script>
+function renderCard(game) {
+  const scoreCls = scoreClass(game.sentiment_score);
+  const positiveCls = game.positive_ratio >= 0.5 ? "pos" : "neg";
+  const tags = game.top_categories
+    .map((item) => `<span class="tag">${item.name} <b>${pct(item.ratio)}</b></span>`)
+    .join("");
+  const alarm = game.anomaly_days.length
+    ? `<div class="alarm">⚠ 声量拐点 ${game.anomaly_days.map(formatDay).join("、")}</div>`
+    : "";
+  const capped = game.capped
+    ? `<div class="alarm">⚠ 抓取命中上限，时间窗早期不完整</div>`
+    : "";
+
+  return `<a class="card" href="game.html?slug=${encodeURIComponent(game.slug)}">
+    <div class="top">
+      <div class="name">${game.name}</div>
+      <div class="src">${game.source}</div>
+    </div>
+    <div class="nums">
+      <div>中文评测<b>${game.comment_count}</b></div>
+      <div>好评率<b class="${positiveCls}">${pct(game.positive_ratio)}</b></div>
+      <div>情绪分<b class="${scoreCls}">${game.sentiment_score.toFixed(2)}</b></div>
+    </div>
+    <div class="tags">${tags}<span class="tag">槽点命中 <b>${pct(game.tagged_ratio)}</b></span></div>
+    ${alarm}
+    ${capped}
+  </a>`;
+}
+
+function renderChart(games) {
+  const rows = [...games].sort((a, b) => a.sentiment_score - b.sentiment_score);
+  const chart = mountChart("sentimentChart");
+  chart.setOption({
+    tooltip: Object.assign({ trigger: "axis", axisPointer: { type: "shadow" } }, TOOLTIP),
+    grid: { left: 8, right: 56, top: 16, bottom: 8, containLabel: true },
+    xAxis: valueAxis({ min: -1, max: 1, splitLine: AXIS_SPLIT }),
+    yAxis: categoryAxis(rows.map((item) => item.name)),
+    series: [{
+      type: "bar",
+      barWidth: 16,
+      data: rows.map((item) => ({
+        value: item.sentiment_score,
+        itemStyle: { color: item.sentiment_score < 0 ? COLORS.neg : COLORS.pos, borderRadius: 3 },
+      })),
+      label: {
+        show: true, position: "right", color: COLORS.muted,
+        formatter: (params) => params.value.toFixed(2),
+      },
+    }],
+  });
+  window.addEventListener("resize", () => chart.resize());
+}
+
+(async () => {
+  try {
+    const data = await loadJson("overview.json");
+
+    document.getElementById("meta").innerHTML =
+      `数据快照 <b>${new Date(data.generated_at).toLocaleString("zh-CN", { hour12: false })}</b>`
+      + ` · 时间窗 <b>${data.window_days} 天</b>`
+      + ` · 样本 <b>${data.review_total}</b> 条中文评测`
+      + ` · LLM 精修 <b>${data.llm_refined ? "已启用" : "未启用"}</b>`;
+
+    const negativeLeaning = data.games.filter((item) => item.sentiment_score < 0).length;
+    const dropped = Object.values(data.dropped || {}).reduce((sum, n) => sum + n, 0);
+
+    document.getElementById("stats").innerHTML = [
+      statCard("收录游戏", data.games.length),
+      statCard("有效评测", data.review_total),
+      statCard("情绪为负的游戏", negativeLeaning, negativeLeaning > data.games.length / 2 ? "neg" : ""),
+      statCard("清洗丢弃", dropped),
+    ].join("");
+
+    renderChart(data.games);
+    document.getElementById("cards").innerHTML = data.games.map(renderCard).join("");
+
+    document.getElementById("note").innerHTML =
+      `数据源：Steam 官方公开接口，仅取简体中文评测，时间窗由本地按评测时间过滤。`
+      + `丢弃明细：${Object.entries(data.dropped || {}).map(([k, v]) => `${k} ${v} 条`).join("、") || "无"}。`
+      + `情绪极性取自 Steam 官方的好评/差评标记，未做情感推断；槽点由关键词规则表命中，`
+      + `命中率偏低属正常（大量短评不含规则词），后续接入 LLM 精修可提升。`;
+  } catch (error) {
+    showError("cards", error);
+    document.getElementById("meta").textContent = "加载失败";
+  }
+})();
+</script>
+</body>
+</html>

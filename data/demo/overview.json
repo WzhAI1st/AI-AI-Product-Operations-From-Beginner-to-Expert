@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-10-15T12:00:00+08:00",
+  "window_days": 30,
+  "llm_refined": false,
+  "review_total": 212,
+  "dropped": {
+    "过短": 12,
+    "广告或噪音": 1
+  },
+  "games": [
+    {
+      "slug": "demo-gamma",
+      "name": "示例游戏·丙",
+      "source": "demo",
+      "steam_appid": null,
+      "comment_count": 28,
+      "positive_ratio": 0.3214,
+      "sentiment_score": -0.3571,
+      "tagged_ratio": 0.1429,
+      "anomaly_days": [
+        "2026-09-16"
+      ],
+      "capped": true,
+      "top_categories": [
+        {
+          "id": "monetization",
+          "name": "氪金与卡池",
+          "ratio": 1.5
+        },
+        {
+          "id": "operation",
+          "name": "运营与活动",
+          "ratio": 1.25
+        },
+        {
+          "id": "balance",
+          "name": "数值与平衡",
+          "ratio": 0.5
+        }
+      ]
+    },
+    {
+      "slug": "demo-alpha",
+      "name": "示例游戏·甲",
+      "source": "demo",
+      "steam_appid": null,
+      "comment_count": 120,
+      "positive_ratio": 0.45,
+      "sentiment_score": -0.1,
+      "tagged_ratio": 0.0583,
+      "anomaly_days": [
+        "2026-10-08"
+      ],
+      "capped": false,
+      "top_categories": [
+        {
+          "id": "operation",
+          "name": "运营与活动",
+          "ratio": 2.0
+        },
+        {
+          "id": "monetization",
+          "name": "氪金与卡池",
+          "ratio": 1.2857
+        },
+        {
+          "id": "bug_perf",
+          "name": "BUG 与性能",
+          "ratio": 1.2857
+        }
+      ]
+    },
+    {
+      "slug": "demo-beta",
+      "name": "示例游戏·乙",
+      "source": "demo",
+      "steam_appid": null,
+      "comment_count": 64,
+      "positive_ratio": 0.7031,
+      "sentiment_score": 0.4062,
+      "tagged_ratio": 0.0781,
+      "anomaly_days": [
+        "2026-10-08"
+      ],
+      "capped": false,
+      "top_categories": [
+        {
+          "id": "story_character",
+          "name": "剧情与角色",
+          "ratio": 2.6
+        },
+        {
+          "id": "balance",
+          "name": "数值与平衡",
+          "ratio": 1.6
+        },
+        {
+          "id": "operation",
+          "name": "运营与活动",
+          "ratio": 1.0
+        }
+      ]
+    }
+  ],
+  "dataset_note": "示例数据：全部为合成构造，与任何真实产品、真实用户无关，仅用于演示页面结构。"
+}

@@ -1,0 +1,253 @@
+{
+  "slug": "demo-gamma",
+  "name": "示例游戏·丙",
+  "source": "demo",
+  "steam_appid": null,
+  "window_days": 30,
+  "comment_count": 28,
+  "positive_count": 9,
+  "negative_count": 19,
+  "positive_ratio": 0.3214,
+  "sentiment_score": -0.3571,
+  "tagged_ratio": 0.1429,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 1
+    },
+    {
+      "date": "2026-09-17",
+      "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 1
+    },
+    {
+      "date": "2026-09-19",
+      "count": 1
+    },
+    {
+      "date": "2026-09-20",
+      "count": 1
+    },
+    {
+      "date": "2026-09-21",
+      "count": 1
+    },
+    {
+      "date": "2026-09-22",
+      "count": 1
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1
+    },
+    {
+      "date": "2026-09-24",
+      "count": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 1
+    },
+    {
+      "date": "2026-09-26",
+      "count": 1
+    },
+    {
+      "date": "2026-09-27",
+      "count": 1
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1
+    },
+    {
+      "date": "2026-09-29",
+      "count": 1
+    },
+    {
+      "date": "2026-09-30",
+      "count": 1
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1
+    },
+    {
+      "date": "2026-10-02",
+      "count": 1
+    },
+    {
+      "date": "2026-10-03",
+      "count": 1
+    },
+    {
+      "date": "2026-10-04",
+      "count": 1
+    },
+    {
+      "date": "2026-10-05",
+      "count": 1
+    },
+    {
+      "date": "2026-10-06",
+      "count": 1
+    },
+    {
+      "date": "2026-10-07",
+      "count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 1
+    },
+    {
+      "date": "2026-10-09",
+      "count": 1
+    },
+    {
+      "date": "2026-10-10",
+      "count": 1
+    },
+    {
+      "date": "2026-10-11",
+      "count": 1
+    },
+    {
+      "date": "2026-10-12",
+      "count": 1
+    },
+    {
+      "date": "2026-10-13",
+      "count": 1
+    },
+    {
+      "date": "2026-10-14",
+      "count": 1
+    },
+    {
+      "date": "2026-10-15",
+      "count": 1
+    }
+  ],
+  "anomaly_days": [
+    "2026-09-16"
+  ],
+  "categories": [
+    {
+      "id": "monetization",
+      "name": "氪金与卡池",
+      "count": 6,
+      "ratio": 1.5,
+      "score": 7.2,
+      "examples": [
+        {
+          "text": "示例评论：卡池的保底机制说明不够清楚，希望把概率和规则写得更明白一些。",
+          "voted_up": null,
+          "votes_up": 7,
+          "created_at": 1791802800,
+          "playtime_hours": 55.5,
+          "categories": [
+            "monetization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 5,
+      "ratio": 1.25,
+      "score": 5.5,
+      "examples": [
+        {
+          "text": "示例评论：运营的沟通节奏偏慢，建议多公开一些后续版本规划。",
+          "voted_up": null,
+          "votes_up": 5,
+          "created_at": 1791630000,
+          "playtime_hours": 40.5,
+          "categories": [
+            "operation"
+          ]
+        },
+        {
+          "text": "示例评论：活动奖励力度适中，但活动内容偏肝，需要自己控制时间投入。",
+          "voted_up": null,
+          "votes_up": 2,
+          "created_at": 1791543600,
+          "playtime_hours": 18.0,
+          "categories": [
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "数值与平衡",
+      "count": 2,
+      "ratio": 0.5,
+      "score": 2.0,
+      "examples": [
+        {
+          "text": "示例评论：新版本的数值调整幅度不小，早先推出的角色强度明显落后了一截。",
+          "voted_up": null,
+          "votes_up": 4,
+          "created_at": 1791457200,
+          "playtime_hours": 33.0,
+          "categories": [
+            "balance"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "示例评论：卡池的保底机制说明不够清楚，希望把概率和规则写得更明白一些。",
+      "voted_up": false,
+      "votes_up": 6,
+      "created_at": 1791889200,
+      "playtime_hours": 48.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：运营的沟通节奏偏慢，建议多公开一些后续版本规划。",
+      "voted_up": false,
+      "votes_up": 4,
+      "created_at": 1791630000,
+      "playtime_hours": 33.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：新版本的数值调整幅度不小，早先推出的角色强度明显落后了一截。",
+      "voted_up": false,
+      "votes_up": 2,
+      "created_at": 1791370800,
+      "playtime_hours": 18.0,
+      "categories": []
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "示例评论：联机匹配速度不错，遇到的队友整体素质在线。",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1791889200,
+      "playtime_hours": 18.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：画面表现稳定，但日常任务的重复度偏高，长时间游玩容易疲惫。",
+      "voted_up": true,
+      "votes_up": 1,
+      "created_at": 1791630000,
+      "playtime_hours": 10.5,
+      "categories": []
+    }
+  ],
+  "fetch_stop_reason": "cap",
+  "dataset_note": "示例数据：全部为合成构造，与任何真实产品、真实用户无关，仅用于演示页面结构。"
+}

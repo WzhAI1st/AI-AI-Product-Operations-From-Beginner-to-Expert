@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-10-15T15:44:58+08:00",
+  "window_days": 30,
+  "llm_refined": false,
+  "review_total": 970,
+  "dropped": {
+    "过短": 294,
+    "广告或噪音": 1
+  },
+  "games": [
+    {
+      "slug": "delta-force",
+      "name": "三角洲行动",
+      "source": "steam",
+      "steam_appid": 2507950,
+      "comment_count": 738,
+      "positive_ratio": 0.3238,
+      "sentiment_score": -0.3523,
+      "tagged_ratio": 0.2046,
+      "anomaly_days": [
+        "2026-09-27"
+      ],
+      "capped": true,
+      "top_categories": [
+        {
+          "id": "bug_perf",
+          "name": "BUG 与性能",
+          "ratio": 0.2843
+        },
+        {
+          "id": "operation",
+          "name": "运营与活动",
+          "ratio": 0.2794
+        },
+        {
+          "id": "environment",
+          "name": "外挂与环境",
+          "ratio": 0.2745
+        }
+      ]
+    },
+    {
+      "slug": "no-rest-for-the-wicked",
+      "name": "恶意不息",
+      "source": "steam",
+      "steam_appid": 1371980,
+      "comment_count": 157,
+      "positive_ratio": 0.4204,
+      "sentiment_score": -0.1592,
+      "tagged_ratio": 0.2739,
+      "anomaly_days": [
+        "2026-10-12"
+      ],
+      "capped": false,
+      "top_categories": [
+        {
+          "id": "bug_perf",
+          "name": "BUG 与性能",
+          "ratio": 0.4717
+        },
+        {
+          "id": "story_character",
+          "name": "剧情与角色",
+          "ratio": 0.1887
+        },
+        {
+          "id": "operation",
+          "name": "运营与活动",
+          "ratio": 0.1321
+        }
+      ]
+    },
+    {
+      "slug": "wuthering-waves",
+      "name": "鸣潮",
+      "source": "steam",
+      "steam_appid": 3513350,
+      "comment_count": 44,
+      "positive_ratio": 0.4318,
+      "sentiment_score": -0.1364,
+      "tagged_ratio": 0.4545,
+      "anomaly_days": [
+        "2026-10-05"
+      ],
+      "capped": false,
+      "top_categories": [
+        {
+          "id": "monetization",
+          "name": "氪金与卡池",
+          "ratio": 0.3462
+        },
+        {
+          "id": "story_character",
+          "name": "剧情与角色",
+          "ratio": 0.3846
+        },
+        {
+          "id": "bug_perf",
+          "name": "BUG 与性能",
+          "ratio": 0.1154
+        }
+      ]
+    },
+    {
+      "slug": "zenless-zone-zero",
+      "name": "绝区零",
+      "source": "steam",
+      "steam_appid": 4162040,
+      "comment_count": 19,
+      "positive_ratio": 0.6842,
+      "sentiment_score": 0.3684,
+      "tagged_ratio": 0.4211,
+      "anomaly_days": [
+        "2026-10-11"
+      ],
+      "capped": false,
+      "top_categories": [
+        {
+          "id": "story_character",
+          "name": "剧情与角色",
+          "ratio": 0.3125
+        },
+        {
+          "id": "operation",
+          "name": "运营与活动",
+          "ratio": 0.25
+        },
+        {
+          "id": "bug_perf",
+          "name": "BUG 与性能",
+          "ratio": 0.1875
+        }
+      ]
+    },
+    {
+      "slug": "arknights-endfield",
+      "name": "明日方舟：终末地",
+      "source": "steam",
+      "steam_appid": 4732690,
+      "comment_count": 12,
+      "positive_ratio": 0.9167,
+      "sentiment_score": 0.8333,
+      "tagged_ratio": 0.5,
+      "anomaly_days": [
+        "2026-10-15"
+      ],
+      "capped": false,
+      "top_categories": [
+        {
+          "id": "monetization",
+          "name": "氪金与卡池",
+          "ratio": 0.375
+        },
+        {
+          "id": "operation",
+          "name": "运营与活动",
+          "ratio": 0.25
+        },
+        {
+          "id": "bug_perf",
+          "name": "BUG 与性能",
+          "ratio": 0.125
+        }
+      ]
+    }
+  ]
+}

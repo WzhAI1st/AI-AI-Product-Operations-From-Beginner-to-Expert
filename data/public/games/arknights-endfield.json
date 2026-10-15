@@ -1,0 +1,331 @@
+{
+  "slug": "arknights-endfield",
+  "name": "明日方舟：终末地",
+  "source": "steam",
+  "steam_appid": 4732690,
+  "window_days": 30,
+  "comment_count": 12,
+  "positive_count": 11,
+  "negative_count": 1,
+  "positive_ratio": 0.9167,
+  "sentiment_score": 0.8333,
+  "tagged_ratio": 0.5,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 0
+    },
+    {
+      "date": "2026-09-17",
+      "count": 0
+    },
+    {
+      "date": "2026-09-18",
+      "count": 0
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 0
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 0
+    },
+    {
+      "date": "2026-09-25",
+      "count": 0
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 0
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0
+    },
+    {
+      "date": "2026-10-02",
+      "count": 0
+    },
+    {
+      "date": "2026-10-03",
+      "count": 0
+    },
+    {
+      "date": "2026-10-04",
+      "count": 0
+    },
+    {
+      "date": "2026-10-05",
+      "count": 0
+    },
+    {
+      "date": "2026-10-06",
+      "count": 0
+    },
+    {
+      "date": "2026-10-07",
+      "count": 0
+    },
+    {
+      "date": "2026-10-08",
+      "count": 0
+    },
+    {
+      "date": "2026-10-09",
+      "count": 0
+    },
+    {
+      "date": "2026-10-10",
+      "count": 0
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0
+    },
+    {
+      "date": "2026-10-12",
+      "count": 0
+    },
+    {
+      "date": "2026-10-13",
+      "count": 0
+    },
+    {
+      "date": "2026-10-14",
+      "count": 0
+    },
+    {
+      "date": "2026-10-15",
+      "count": 12
+    }
+  ],
+  "anomaly_days": [
+    "2026-10-15"
+  ],
+  "categories": [
+    {
+      "id": "monetization",
+      "name": "氪金与卡池",
+      "count": 3,
+      "ratio": 0.375,
+      "score": 3.6,
+      "examples": [
+        {
+          "text": "抽卡纯纯垃圾，攒了400抽抽洛茜，兄弟你要知道洛茜是有概率UP的，结果一个洛茜都没出，全他妈歪了。 而且里程碑奖励也就120抽档位和240抽档位，后面就没了？",
+          "voted_up": false,
+          "votes_up": 12,
+          "created_at": 1792032717,
+          "playtime_hours": 0.2,
+          "categories": [
+            "monetization"
+          ]
+        },
+        {
+          "text": "小保底没歪）",
+          "voted_up": true,
+          "votes_up": 0,
+          "created_at": 1792048861,
+          "playtime_hours": 2.2,
+          "categories": [
+            "monetization"
+          ]
+        },
+        {
+          "text": "对中微氪玩家意外的很友好。我一般不会在一个二游里期待抽卡，但我zmd目前都还保持着全图鉴（甚至还有闲钱给别礼抽个专武，只是因为长草），有新角色第一时间考虑的是…",
+          "voted_up": true,
+          "votes_up": 0,
+          "created_at": 1792034375,
+          "playtime_hours": 0.2,
+          "categories": [
+            "monetization",
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 2,
+      "ratio": 0.25,
+      "score": 2.2,
+      "examples": [
+        {
+          "text": "有人说这个游戏抽卡贵，为啥还坚持玩？ 怕贵，但更怕游戏糊弄，先把规矩立住，游戏才能运营长久。 游戏不偷工减料，更新稳定。 市面上大世界二游，这个游戏守住底线，…",
+          "voted_up": true,
+          "votes_up": 6,
+          "created_at": 1792037094,
+          "playtime_hours": 5.0,
+          "categories": [
+            "operation"
+          ]
+        },
+        {
+          "text": "对中微氪玩家意外的很友好。我一般不会在一个二游里期待抽卡，但我zmd目前都还保持着全图鉴（甚至还有闲钱给别礼抽个专武，只是因为长草），有新角色第一时间考虑的是…",
+          "voted_up": true,
+          "votes_up": 0,
+          "created_at": 1792034375,
+          "playtime_hours": 0.2,
+          "categories": [
+            "monetization",
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bug_perf",
+      "name": "BUG 与性能",
+      "count": 1,
+      "ratio": 0.125,
+      "score": 1.1,
+      "examples": [
+        {
+          "text": "精致的建模，极致的优化",
+          "voted_up": true,
+          "votes_up": 5,
+          "created_at": 1792021873,
+          "playtime_hours": 0.2,
+          "categories": [
+            "bug_perf",
+            "story_character"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "数值与平衡",
+      "count": 1,
+      "ratio": 0.125,
+      "score": 1.0,
+      "examples": [
+        {
+          "text": "加强庄方宜",
+          "voted_up": true,
+          "votes_up": 0,
+          "created_at": 1792046092,
+          "playtime_hours": 2.4,
+          "categories": [
+            "balance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story_character",
+      "name": "剧情与角色",
+      "count": 1,
+      "ratio": 0.125,
+      "score": 0.9,
+      "examples": [
+        {
+          "text": "精致的建模，极致的优化",
+          "voted_up": true,
+          "votes_up": 5,
+          "created_at": 1792021873,
+          "playtime_hours": 0.2,
+          "categories": [
+            "bug_perf",
+            "story_character"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "抽卡纯纯垃圾，攒了400抽抽洛茜，兄弟你要知道洛茜是有概率UP的，结果一个洛茜都没出，全他妈歪了。 而且里程碑奖励也就120抽档位和240抽档位，后面就没了？",
+      "voted_up": false,
+      "votes_up": 12,
+      "created_at": 1792032717,
+      "playtime_hours": 0.2,
+      "categories": [
+        "monetization"
+      ]
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "有人说这个游戏抽卡贵，为啥还坚持玩？ 怕贵，但更怕游戏糊弄，先把规矩立住，游戏才能运营长久。 游戏不偷工减料，更新稳定。 市面上大世界二游，这个游戏守住底线，零氪也让你进游戏， 抽卡贵是贵点，但终末地玩起来，它不烧心。",
+      "voted_up": true,
+      "votes_up": 6,
+      "created_at": 1792037094,
+      "playtime_hours": 5.0,
+      "categories": [
+        "operation"
+      ]
+    },
+    {
+      "text": "精致的建模，极致的优化",
+      "voted_up": true,
+      "votes_up": 5,
+      "created_at": 1792021873,
+      "playtime_hours": 0.2,
+      "categories": [
+        "bug_perf",
+        "story_character"
+      ]
+    },
+    {
+      "text": "震撼美味👍",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1792020885,
+      "playtime_hours": 0.1,
+      "categories": []
+    },
+    {
+      "text": "咕咕嘎嘎",
+      "voted_up": true,
+      "votes_up": 1,
+      "created_at": 1792033548,
+      "playtime_hours": 0.1,
+      "categories": []
+    },
+    {
+      "text": "小保底没歪）",
+      "voted_up": true,
+      "votes_up": 0,
+      "created_at": 1792048861,
+      "playtime_hours": 2.2,
+      "categories": [
+        "monetization"
+      ]
+    }
+  ],
+  "fetch_stop_reason": "exhausted"
+}

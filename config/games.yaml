@@ -1,0 +1,61 @@
+# 游戏名单配置
+#
+# 数据源说明：
+#   steam  —— 官方公开接口，无需任何凭据，中文评论。
+#             核心优势：voted_up 字段直接给出好评/差评极性，情绪不需要猜。
+#   reddit —— 官方 OAuth 接口，需要 REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET 环境变量，英文。
+#
+# enabled: false 的条目会被 pipeline 直接跳过。slug 是输出文件名，定了别改。
+
+games:
+  # ---------- Steam 源（已实测可用，零配置） ----------
+
+  - slug: arknights-endfield
+    name: 明日方舟：终末地
+    source: steam
+    steam_appid: 4732690
+    enabled: true
+
+  - slug: wuthering-waves
+    name: 鸣潮
+    source: steam
+    steam_appid: 3513350
+    enabled: true
+
+  - slug: zenless-zone-zero
+    name: 绝区零
+    source: steam
+    steam_appid: 4162040
+    enabled: true
+
+  - slug: delta-force
+    name: 三角洲行动
+    source: steam
+    steam_appid: 2507950
+    enabled: true
+
+  - slug: no-rest-for-the-wicked
+    name: 恶意不息
+    source: steam
+    steam_appid: 1371980
+    enabled: true
+
+  # ---------- Reddit 源（需凭据，暂未启用） ----------
+
+  - slug: arknights
+    name: 明日方舟
+    source: reddit
+    subreddit: arknights
+    enabled: false
+
+  - slug: genshin-impact
+    name: 原神
+    source: reddit
+    subreddit: Genshin_Impact
+    enabled: false
+
+  - slug: honkai-star-rail
+    name: 崩坏：星穹铁道
+    source: reddit
+    subreddit: HonkaiStarRail
+    enabled: false

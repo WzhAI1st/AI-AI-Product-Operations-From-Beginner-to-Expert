@@ -1,0 +1,66 @@
+# 全局运行参数
+
+collect:
+  # 时间窗（天）：只保留发布时间在窗口内的视频与其评论
+  window_days: 30
+  # 每款游戏取播放量最高的视频数
+  videos_per_game: 20
+  # 每个视频抓取的一级评论上限
+  comments_per_video: 100
+  # 请求间隔随机抖动区间（秒）。调小会显著提高触发风控的概率
+  delay_min: 1.5
+  delay_max: 3.0
+  # 单次请求超时（秒）
+  timeout: 15
+  # 失败重试次数（仅对 5xx 与网络错误重试；412 直接退避后重试）
+  max_retries: 3
+  # 指数退避基数（秒）
+  backoff_base: 5
+  # 命中该错误码直接中止本轮，需人工降低频率
+  abort_on_codes:
+    - -412
+    - -799
+  # 合规要求：请求需带明确的身份标识与项目地址。
+  # 【发布前必改】下面的占位符要换成你自己的仓库地址，否则合规声明第 3 条没有落地。
+  # 仍为占位符时，--check-config 会给出提示。
+  user_agent_contact: "https://github.com/your-name/game-voc-radar"
+
+  steam:
+    # 只取中文评测，这是我们能拿到的中文槽点来源
+    language: schinese
+    # 单款游戏本轮最多抓多少条评论，用于控制 demo 跑批时间
+    max_comments_per_game: 1000
+    # 单页条数，接口上限 100
+    reviews_per_page: 100
+    # 注意：接口的 day_range 参数实测不生效，时间窗一律由 window_days
+    # 在本地按 timestamp_created 过滤
+
+analyze:
+  # 触发 LLM 精修的条件
+  llm:
+    # 总开关。无 API key 时此模块自动跳过，不影响其余流程
+    enabled: false
+    # key 从环境变量读取，绝不写入仓库
+    api_key_env: LLM_API_KEY
+    base_url: ""
+    model: ""
+    # 每条评论至少多少个字才值得精修
+    min_text_length: 15
+    # 每类槽点送去精修的代表评论数
+    samples_per_category: 30
+    # 单次请求最多塞多少条评论
+    batch_size: 20
+
+  # 聚合时每条评论原始文本最多保留多少字（用于前端展示）
+  excerpt_length: 80
+
+  # 声量异常检测阈值：日声量 z-score 超过该值标记为拐点
+  anomaly_zscore: 2.0
+
+output:
+  public_dir: data/public
+  raw_dir: data/raw
+  # 数据快照时区，仅影响按日聚合的分桶
+  timezone: Asia/Shanghai
+  # 输出保留小数位
+  round_digits: 4

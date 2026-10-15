@@ -1,0 +1,316 @@
+{
+  "slug": "demo-alpha",
+  "name": "示例游戏·甲",
+  "source": "demo",
+  "steam_appid": null,
+  "window_days": 30,
+  "comment_count": 120,
+  "positive_count": 54,
+  "negative_count": 66,
+  "positive_ratio": 0.45,
+  "sentiment_score": -0.1,
+  "tagged_ratio": 0.0583,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 4
+    },
+    {
+      "date": "2026-09-17",
+      "count": 4
+    },
+    {
+      "date": "2026-09-18",
+      "count": 4
+    },
+    {
+      "date": "2026-09-19",
+      "count": 4
+    },
+    {
+      "date": "2026-09-20",
+      "count": 4
+    },
+    {
+      "date": "2026-09-21",
+      "count": 4
+    },
+    {
+      "date": "2026-09-22",
+      "count": 4
+    },
+    {
+      "date": "2026-09-23",
+      "count": 4
+    },
+    {
+      "date": "2026-09-24",
+      "count": 4
+    },
+    {
+      "date": "2026-09-25",
+      "count": 4
+    },
+    {
+      "date": "2026-09-26",
+      "count": 4
+    },
+    {
+      "date": "2026-09-27",
+      "count": 4
+    },
+    {
+      "date": "2026-09-28",
+      "count": 4
+    },
+    {
+      "date": "2026-09-29",
+      "count": 4
+    },
+    {
+      "date": "2026-09-30",
+      "count": 4
+    },
+    {
+      "date": "2026-10-01",
+      "count": 4
+    },
+    {
+      "date": "2026-10-02",
+      "count": 4
+    },
+    {
+      "date": "2026-10-03",
+      "count": 4
+    },
+    {
+      "date": "2026-10-04",
+      "count": 3
+    },
+    {
+      "date": "2026-10-05",
+      "count": 3
+    },
+    {
+      "date": "2026-10-06",
+      "count": 3
+    },
+    {
+      "date": "2026-10-07",
+      "count": 3
+    },
+    {
+      "date": "2026-10-08",
+      "count": 15
+    },
+    {
+      "date": "2026-10-09",
+      "count": 3
+    },
+    {
+      "date": "2026-10-10",
+      "count": 3
+    },
+    {
+      "date": "2026-10-11",
+      "count": 3
+    },
+    {
+      "date": "2026-10-12",
+      "count": 3
+    },
+    {
+      "date": "2026-10-13",
+      "count": 3
+    },
+    {
+      "date": "2026-10-14",
+      "count": 3
+    },
+    {
+      "date": "2026-10-15",
+      "count": 3
+    }
+  ],
+  "anomaly_days": [
+    "2026-10-08"
+  ],
+  "categories": [
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 14,
+      "ratio": 2.0,
+      "score": 15.4,
+      "examples": [
+        {
+          "text": "示例评论：运营的沟通节奏偏慢，建议多公开一些后续版本规划。",
+          "voted_up": null,
+          "votes_up": 12,
+          "created_at": 1791630000,
+          "playtime_hours": 93.0,
+          "categories": [
+            "operation"
+          ]
+        },
+        {
+          "text": "示例评论：活动奖励力度适中，但活动内容偏肝，需要自己控制时间投入。",
+          "voted_up": null,
+          "votes_up": 7,
+          "created_at": 1791543600,
+          "playtime_hours": 55.5,
+          "categories": [
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monetization",
+      "name": "氪金与卡池",
+      "count": 9,
+      "ratio": 1.2857,
+      "score": 10.8,
+      "examples": [
+        {
+          "text": "示例评论：卡池的保底机制说明不够清楚，希望把概率和规则写得更明白一些。",
+          "voted_up": null,
+          "votes_up": 10,
+          "created_at": 1791457200,
+          "playtime_hours": 78.0,
+          "categories": [
+            "monetization"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bug_perf",
+      "name": "BUG 与性能",
+      "count": 9,
+      "ratio": 1.2857,
+      "score": 9.9,
+      "examples": [
+        {
+          "text": "示例评论：这次更新之后偶尔会掉帧，重进一次就恢复正常，整体还能接受。",
+          "voted_up": null,
+          "votes_up": 18,
+          "created_at": 1791802800,
+          "playtime_hours": 138.0,
+          "categories": [
+            "bug_perf"
+          ]
+        },
+        {
+          "text": "示例评论：画面表现稳定，但日常任务的重复度偏高，长时间游玩容易疲惫。",
+          "voted_up": null,
+          "votes_up": 9,
+          "created_at": 1791716400,
+          "playtime_hours": 70.5,
+          "categories": [
+            "bug_perf"
+          ]
+        },
+        {
+          "text": "示例评论：启动时的环境检测提示会被整段贴进评测区，和游戏评价其实无关。",
+          "voted_up": null,
+          "votes_up": 4,
+          "created_at": 1791630000,
+          "playtime_hours": 33.0,
+          "categories": [
+            "bug_perf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story_character",
+      "name": "剧情与角色",
+      "count": 4,
+      "ratio": 0.5714,
+      "score": 3.6,
+      "examples": [
+        {
+          "text": "示例评论：剧情节奏比上个版本顺，配音和演出是明显的加分项。",
+          "voted_up": null,
+          "votes_up": 8,
+          "created_at": 1791284400,
+          "playtime_hours": 63.0,
+          "categories": [
+            "story_character"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "示例评论：运营的沟通节奏偏慢，建议多公开一些后续版本规划。",
+      "voted_up": false,
+      "votes_up": 11,
+      "created_at": 1791889200,
+      "playtime_hours": 85.5,
+      "categories": []
+    },
+    {
+      "text": "示例评论：卡池的保底机制说明不够清楚，希望把概率和规则写得更明白一些。",
+      "voted_up": false,
+      "votes_up": 9,
+      "created_at": 1791630000,
+      "playtime_hours": 70.5,
+      "categories": []
+    },
+    {
+      "text": "示例评论：这次更新之后偶尔会掉帧，重进一次就恢复正常，整体还能接受。",
+      "voted_up": false,
+      "votes_up": 6,
+      "created_at": 1791370800,
+      "playtime_hours": 48.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：活动奖励力度适中，但活动内容偏肝，需要自己控制时间投入。",
+      "voted_up": false,
+      "votes_up": 3,
+      "created_at": 1791111600,
+      "playtime_hours": 25.5,
+      "categories": []
+    },
+    {
+      "text": "示例评论：画面表现稳定，但日常任务的重复度偏高，长时间游玩容易疲惫。",
+      "voted_up": false,
+      "votes_up": 2,
+      "created_at": 1790852400,
+      "playtime_hours": 18.0,
+      "categories": []
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "示例评论：剧情节奏比上个版本顺，配音和演出是明显的加分项。",
+      "voted_up": true,
+      "votes_up": 4,
+      "created_at": 1791889200,
+      "playtime_hours": 33.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：联机匹配速度不错，遇到的队友整体素质在线。",
+      "voted_up": true,
+      "votes_up": 3,
+      "created_at": 1791630000,
+      "playtime_hours": 25.5,
+      "categories": []
+    },
+    {
+      "text": "示例评论：画面表现稳定，但日常任务的重复度偏高，长时间游玩容易疲惫。",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1791370800,
+      "playtime_hours": 18.0,
+      "categories": []
+    }
+  ],
+  "fetch_stop_reason": "window_edge",
+  "dataset_note": "示例数据：全部为合成构造，与任何真实产品、真实用户无关，仅用于演示页面结构。"
+}

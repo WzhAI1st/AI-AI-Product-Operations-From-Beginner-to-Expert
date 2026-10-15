@@ -1,0 +1,450 @@
+{
+  "slug": "zenless-zone-zero",
+  "name": "绝区零",
+  "source": "steam",
+  "steam_appid": 4162040,
+  "window_days": 30,
+  "comment_count": 19,
+  "positive_count": 13,
+  "negative_count": 6,
+  "positive_ratio": 0.6842,
+  "sentiment_score": 0.3684,
+  "tagged_ratio": 0.4211,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 0
+    },
+    {
+      "date": "2026-09-17",
+      "count": 0
+    },
+    {
+      "date": "2026-09-18",
+      "count": 1
+    },
+    {
+      "date": "2026-09-19",
+      "count": 0
+    },
+    {
+      "date": "2026-09-20",
+      "count": 0
+    },
+    {
+      "date": "2026-09-21",
+      "count": 0
+    },
+    {
+      "date": "2026-09-22",
+      "count": 0
+    },
+    {
+      "date": "2026-09-23",
+      "count": 0
+    },
+    {
+      "date": "2026-09-24",
+      "count": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 1
+    },
+    {
+      "date": "2026-09-26",
+      "count": 0
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 0
+    },
+    {
+      "date": "2026-09-29",
+      "count": 0
+    },
+    {
+      "date": "2026-09-30",
+      "count": 0
+    },
+    {
+      "date": "2026-10-01",
+      "count": 0
+    },
+    {
+      "date": "2026-10-02",
+      "count": 1
+    },
+    {
+      "date": "2026-10-03",
+      "count": 1
+    },
+    {
+      "date": "2026-10-04",
+      "count": 0
+    },
+    {
+      "date": "2026-10-05",
+      "count": 2
+    },
+    {
+      "date": "2026-10-06",
+      "count": 2
+    },
+    {
+      "date": "2026-10-07",
+      "count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 1
+    },
+    {
+      "date": "2026-10-09",
+      "count": 0
+    },
+    {
+      "date": "2026-10-10",
+      "count": 1
+    },
+    {
+      "date": "2026-10-11",
+      "count": 3
+    },
+    {
+      "date": "2026-10-12",
+      "count": 0
+    },
+    {
+      "date": "2026-10-13",
+      "count": 0
+    },
+    {
+      "date": "2026-10-14",
+      "count": 0
+    },
+    {
+      "date": "2026-10-15",
+      "count": 0
+    }
+  ],
+  "anomaly_days": [
+    "2026-10-11"
+  ],
+  "categories": [
+    {
+      "id": "story_character",
+      "name": "剧情与角色",
+      "count": 5,
+      "ratio": 0.3125,
+      "score": 4.5,
+      "examples": [
+        {
+          "text": "主线内置一堆小游戏，活动也全是蚊子腿小游戏，太逆天了，80G估计有一大半是小游戏占的",
+          "voted_up": false,
+          "votes_up": 7,
+          "created_at": 1790495517,
+          "playtime_hours": 6.9,
+          "categories": [
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "很喜欢绝区零的世界观 美术风格好，战斗手感调教的很好， 角色很保值一年前的角色照样玩 制作组听劝 也有一直在进步 唯一的缺点是剧情不太行 当个副游玩蛮不错",
+          "voted_up": true,
+          "votes_up": 5,
+          "created_at": 1791162803,
+          "playtime_hours": 138.2,
+          "categories": [
+            "story_character"
+          ]
+        },
+        {
+          "text": "多的不说，只说两点问题： 1.灾难性优化。一个动作二游，两个关键字，一个动作，一个二游，动作游戏要求流畅性，二游要求适配手机，画面精细度不可能要求3a大作那样…",
+          "voted_up": false,
+          "votes_up": 4,
+          "created_at": 1791705837,
+          "playtime_hours": 420.6,
+          "categories": [
+            "balance",
+            "monetization",
+            "bug_perf",
+            "story_character",
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 4,
+      "ratio": 0.25,
+      "score": 4.4,
+      "examples": [
+        {
+          "text": "主线内置一堆小游戏，活动也全是蚊子腿小游戏，太逆天了，80G估计有一大半是小游戏占的",
+          "voted_up": false,
+          "votes_up": 7,
+          "created_at": 1790495517,
+          "playtime_hours": 6.9,
+          "categories": [
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "多的不说，只说两点问题： 1.灾难性优化。一个动作二游，两个关键字，一个动作，一个二游，动作游戏要求流畅性，二游要求适配手机，画面精细度不可能要求3a大作那样…",
+          "voted_up": false,
+          "votes_up": 4,
+          "created_at": 1791705837,
+          "playtime_hours": 420.6,
+          "categories": [
+            "balance",
+            "monetization",
+            "bug_perf",
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "角色设计相当优秀的动作游戏，老一辈人坚持手搓无动捕的含金量这块。战斗手感无可挑剔，人物细节相当用心，大版本的福利也是吊打某六字游戏，但由于其邪恶的米池抽卡机制…",
+          "voted_up": true,
+          "votes_up": 2,
+          "created_at": 1789472782,
+          "playtime_hours": 33.7,
+          "categories": [
+            "balance",
+            "monetization",
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bug_perf",
+      "name": "BUG 与性能",
+      "count": 3,
+      "ratio": 0.1875,
+      "score": 3.3,
+      "examples": [
+        {
+          "text": "STEAM商店里的绝区零是国际服，和中国服务器的账号数据不互通。",
+          "voted_up": true,
+          "votes_up": 7,
+          "created_at": 1791458323,
+          "playtime_hours": 2.6,
+          "categories": [
+            "bug_perf"
+          ]
+        },
+        {
+          "text": "多的不说，只说两点问题： 1.灾难性优化。一个动作二游，两个关键字，一个动作，一个二游，动作游戏要求流畅性，二游要求适配手机，画面精细度不可能要求3a大作那样…",
+          "voted_up": false,
+          "votes_up": 4,
+          "created_at": 1791705837,
+          "playtime_hours": 420.6,
+          "categories": [
+            "balance",
+            "monetization",
+            "bug_perf",
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "优化游戏体量！80G太糟糕了",
+          "voted_up": true,
+          "votes_up": 0,
+          "created_at": 1791275162,
+          "playtime_hours": 10.3,
+          "categories": [
+            "bug_perf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monetization",
+      "name": "氪金与卡池",
+      "count": 2,
+      "ratio": 0.125,
+      "score": 2.4,
+      "examples": [
+        {
+          "text": "多的不说，只说两点问题： 1.灾难性优化。一个动作二游，两个关键字，一个动作，一个二游，动作游戏要求流畅性，二游要求适配手机，画面精细度不可能要求3a大作那样…",
+          "voted_up": false,
+          "votes_up": 4,
+          "created_at": 1791705837,
+          "playtime_hours": 420.6,
+          "categories": [
+            "balance",
+            "monetization",
+            "bug_perf",
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "角色设计相当优秀的动作游戏，老一辈人坚持手搓无动捕的含金量这块。战斗手感无可挑剔，人物细节相当用心，大版本的福利也是吊打某六字游戏，但由于其邪恶的米池抽卡机制…",
+          "voted_up": true,
+          "votes_up": 2,
+          "created_at": 1789472782,
+          "playtime_hours": 33.7,
+          "categories": [
+            "balance",
+            "monetization",
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "数值与平衡",
+      "count": 2,
+      "ratio": 0.125,
+      "score": 2.0,
+      "examples": [
+        {
+          "text": "多的不说，只说两点问题： 1.灾难性优化。一个动作二游，两个关键字，一个动作，一个二游，动作游戏要求流畅性，二游要求适配手机，画面精细度不可能要求3a大作那样…",
+          "voted_up": false,
+          "votes_up": 4,
+          "created_at": 1791705837,
+          "playtime_hours": 420.6,
+          "categories": [
+            "balance",
+            "monetization",
+            "bug_perf",
+            "story_character",
+            "operation"
+          ]
+        },
+        {
+          "text": "角色设计相当优秀的动作游戏，老一辈人坚持手搓无动捕的含金量这块。战斗手感无可挑剔，人物细节相当用心，大版本的福利也是吊打某六字游戏，但由于其邪恶的米池抽卡机制…",
+          "voted_up": true,
+          "votes_up": 2,
+          "created_at": 1789472782,
+          "playtime_hours": 33.7,
+          "categories": [
+            "balance",
+            "monetization",
+            "operation"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "主线内置一堆小游戏，活动也全是蚊子腿小游戏，太逆天了，80G估计有一大半是小游戏占的",
+      "voted_up": false,
+      "votes_up": 7,
+      "created_at": 1790495517,
+      "playtime_hours": 6.9,
+      "categories": [
+        "story_character",
+        "operation"
+      ]
+    },
+    {
+      "text": "多的不说，只说两点问题： 1.灾难性优化。一个动作二游，两个关键字，一个动作，一个二游，动作游戏要求流畅性，二游要求适配手机，画面精细度不可能要求3a大作那样完善，两者结合起来，讲道理是会出现一个动作流畅，不掉帧能适配中高配置PC端的二游，但实际上我见过太多在网上吐槽40系、50系中高端显卡仍然掉帧、low帧低的情况了，制作者真该反思一下，一个动作游戏如果连流畅游玩都做不到，又怎么可能让玩家享受到动作游戏的乐趣？我的显卡不说多高端，4070，在大部分PC端游戏也算能用了，玩…",
+      "voted_up": false,
+      "votes_up": 4,
+      "created_at": 1791705837,
+      "playtime_hours": 420.6,
+      "categories": [
+        "balance",
+        "monetization",
+        "bug_perf",
+        "story_character",
+        "operation"
+      ]
+    },
+    {
+      "text": "打个boss的音乐响的跟夜店一样 什么品味",
+      "voted_up": false,
+      "votes_up": 2,
+      "created_at": 1791278077,
+      "playtime_hours": 0.6,
+      "categories": []
+    },
+    {
+      "text": "真闹麻了，金也不给，紫也不给，扣扣嗖嗖",
+      "voted_up": false,
+      "votes_up": 2,
+      "created_at": 1790332097,
+      "playtime_hours": 34.5,
+      "categories": []
+    },
+    {
+      "text": "动作游戏剧情搞得磨磨唧唧的，又是什么邪恶势力意图摧毁世界，都什么年代了，直接就是去哪里杀几只完事了，一天下了班没那么多时间看你的破播片，章节剧情放播片还不让跳，我稀得看吗？卖点皮肤做点奖池，玩一段时间就够了，不会真有人喜欢这吊毛剧情吧？",
+      "voted_up": false,
+      "votes_up": 1,
+      "created_at": 1791724428,
+      "playtime_hours": 4.8,
+      "categories": [
+        "story_character"
+      ]
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "STEAM商店里的绝区零是国际服，和中国服务器的账号数据不互通。",
+      "voted_up": true,
+      "votes_up": 7,
+      "created_at": 1791458323,
+      "playtime_hours": 2.6,
+      "categories": [
+        "bug_perf"
+      ]
+    },
+    {
+      "text": "很喜欢绝区零的世界观 美术风格好，战斗手感调教的很好， 角色很保值一年前的角色照样玩 制作组听劝 也有一直在进步 唯一的缺点是剧情不太行 当个副游玩蛮不错",
+      "voted_up": true,
+      "votes_up": 5,
+      "created_at": 1791162803,
+      "playtime_hours": 138.2,
+      "categories": [
+        "story_character"
+      ]
+    },
+    {
+      "text": "终于可以将你绝的游戏时长纳入steam了🙌",
+      "voted_up": true,
+      "votes_up": 4,
+      "created_at": 1790477332,
+      "playtime_hours": 0.8,
+      "categories": []
+    },
+    {
+      "text": "角色设计相当优秀的动作游戏，老一辈人坚持手搓无动捕的含金量这块。战斗手感无可挑剔，人物细节相当用心，大版本的福利也是吊打某六字游戏，但由于其邪恶的米池抽卡机制（底层逻辑这块），使得无数非酋歪卡玩家落泪（悲） 而最近的妄想天使小背心限定免费皮肤更是美味至极口牙！",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1789472782,
+      "playtime_hours": 33.7,
+      "categories": [
+        "balance",
+        "monetization",
+        "operation"
+      ]
+    },
+    {
+      "text": "对我来说最大的槽点就是这怎么是米哈游的游戏呢，对米哈游的那套体系委实有点反感（除了崩二）。 可惜国际服和国服数据不互通，不然高低在steam体验一下。 总的来说，这游戏在众多二游里算是最吸引我的那一个了，当然我指的不是剧情，剧情都是跳过的，不能跳的也只会让你看很短的时间，因为不是大世界的类型所以，人物视角拉的很近，能最大程度的看到人物细节，好评。建模和渲染出色，肉乎乎的，动作也顶，连携技特效啥的也酷的很，当然，或许有些人会觉得特效太多玩久了眼睛累啥的，但问题不大。且现在过剧…",
+      "voted_up": true,
+      "votes_up": 1,
+      "created_at": 1791619699,
+      "playtime_hours": 0.3,
+      "categories": [
+        "story_character",
+        "operation"
+      ]
+    }
+  ],
+  "fetch_stop_reason": "window_edge"
+}

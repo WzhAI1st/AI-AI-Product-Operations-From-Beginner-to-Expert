@@ -1,0 +1,471 @@
+{
+  "slug": "no-rest-for-the-wicked",
+  "name": "恶意不息",
+  "source": "steam",
+  "steam_appid": 1371980,
+  "window_days": 30,
+  "comment_count": 157,
+  "positive_count": 66,
+  "negative_count": 91,
+  "positive_ratio": 0.4204,
+  "sentiment_score": -0.1592,
+  "tagged_ratio": 0.2739,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 1
+    },
+    {
+      "date": "2026-09-17",
+      "count": 6
+    },
+    {
+      "date": "2026-09-18",
+      "count": 10
+    },
+    {
+      "date": "2026-09-19",
+      "count": 5
+    },
+    {
+      "date": "2026-09-20",
+      "count": 2
+    },
+    {
+      "date": "2026-09-21",
+      "count": 6
+    },
+    {
+      "date": "2026-09-22",
+      "count": 7
+    },
+    {
+      "date": "2026-09-23",
+      "count": 6
+    },
+    {
+      "date": "2026-09-24",
+      "count": 5
+    },
+    {
+      "date": "2026-09-25",
+      "count": 4
+    },
+    {
+      "date": "2026-09-26",
+      "count": 4
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 5
+    },
+    {
+      "date": "2026-09-29",
+      "count": 3
+    },
+    {
+      "date": "2026-09-30",
+      "count": 8
+    },
+    {
+      "date": "2026-10-01",
+      "count": 6
+    },
+    {
+      "date": "2026-10-02",
+      "count": 4
+    },
+    {
+      "date": "2026-10-03",
+      "count": 5
+    },
+    {
+      "date": "2026-10-04",
+      "count": 5
+    },
+    {
+      "date": "2026-10-05",
+      "count": 6
+    },
+    {
+      "date": "2026-10-06",
+      "count": 5
+    },
+    {
+      "date": "2026-10-07",
+      "count": 5
+    },
+    {
+      "date": "2026-10-08",
+      "count": 4
+    },
+    {
+      "date": "2026-10-09",
+      "count": 5
+    },
+    {
+      "date": "2026-10-10",
+      "count": 3
+    },
+    {
+      "date": "2026-10-11",
+      "count": 4
+    },
+    {
+      "date": "2026-10-12",
+      "count": 14
+    },
+    {
+      "date": "2026-10-13",
+      "count": 5
+    },
+    {
+      "date": "2026-10-14",
+      "count": 5
+    },
+    {
+      "date": "2026-10-15",
+      "count": 1
+    }
+  ],
+  "anomaly_days": [
+    "2026-10-12"
+  ],
+  "categories": [
+    {
+      "id": "bug_perf",
+      "name": "BUG 与性能",
+      "count": 25,
+      "ratio": 0.4717,
+      "score": 27.5,
+      "examples": [
+        {
+          "text": "尽管这款游戏的评价褒贬不一，但我还是要给绝对的好评，我玩过那么多游戏了，这款游戏我也陆陆续续玩过好久了，虽然有些优化不好，属性太繁琐，有些怪是真的打的头皮发麻…",
+          "voted_up": true,
+          "votes_up": 1,
+          "created_at": 1791807698,
+          "playtime_hours": 24.2,
+          "categories": [
+            "bug_perf"
+          ]
+        },
+        {
+          "text": "差评发给开发组看的：优化差，bug多。稳不到60帧，一到密集场所只有30帧。 游戏非常好玩。",
+          "voted_up": false,
+          "votes_up": 1,
+          "created_at": 1791053996,
+          "playtime_hours": 23.5,
+          "categories": [
+            "bug_perf"
+          ]
+        },
+        {
+          "text": "非常好玩，但是游戏只有2-3章内容，成品9-10章才对得起这个故事起步的水平。 优点：01.打击感很好。 02.剧情非常出色，灾戾到底是啥呢我是真想知道。 0…",
+          "voted_up": false,
+          "votes_up": 1,
+          "created_at": 1790768434,
+          "playtime_hours": 33.8,
+          "categories": [
+            "bug_perf",
+            "story_character"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "story_character",
+      "name": "剧情与角色",
+      "count": 10,
+      "ratio": 0.1887,
+      "score": 9.0,
+      "examples": [
+        {
+          "text": "毫无诚信的制作人，天天画大饼吹牛皮，不好好把主线剧情做好，天天研究你那b可有可无的联机，游戏没做完就开始想上手机端，还去成立新工作室去做其他小游戏，纯种傻逼一…",
+          "voted_up": false,
+          "votes_up": 71,
+          "created_at": 1789733330,
+          "playtime_hours": 94.4,
+          "categories": [
+            "story_character",
+            "environment"
+          ]
+        },
+        {
+          "text": "优点：做工精良，细节满满 1. 整体美术水准高 2. 箱庭设计：很多小巧思的地图细节，和近道安排。且整体都保持高水准。下的功夫不少 3. 剧情：大剧情合理不降…",
+          "voted_up": true,
+          "votes_up": 2,
+          "created_at": 1791184395,
+          "playtime_hours": 76.2,
+          "categories": [
+            "monetization",
+            "story_character",
+            "environment"
+          ]
+        },
+        {
+          "text": "非常好玩，但是游戏只有2-3章内容，成品9-10章才对得起这个故事起步的水平。 优点：01.打击感很好。 02.剧情非常出色，灾戾到底是啥呢我是真想知道。 0…",
+          "voted_up": false,
+          "votes_up": 1,
+          "created_at": 1790768434,
+          "playtime_hours": 33.8,
+          "categories": [
+            "bug_perf",
+            "story_character"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 7,
+      "ratio": 0.1321,
+      "score": 7.7,
+      "examples": [
+        {
+          "text": "除非正式版出了不然一律不建议入手。制作者公告和说什么都当放屁就好",
+          "voted_up": false,
+          "votes_up": 2,
+          "created_at": 1790239222,
+          "playtime_hours": 40.2,
+          "categories": [
+            "operation"
+          ]
+        },
+        {
+          "text": "8月份想回归玩一下的，听到说十月正式版，就想着国庆爽玩，前几天上号一看，又跳票了，毫无信誉可言",
+          "voted_up": false,
+          "votes_up": 1,
+          "created_at": 1791482502,
+          "playtime_hours": 24.8,
+          "categories": [
+            "operation"
+          ]
+        },
+        {
+          "text": "非常赞，当时看网上差评心有余悸，玩起来才知道，瑕不掩瑜，真神。不过，运营方的更新鸽子是真恶心。",
+          "voted_up": true,
+          "votes_up": 1,
+          "created_at": 1790583538,
+          "playtime_hours": 96.5,
+          "categories": [
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "name": "外挂与环境",
+      "count": 5,
+      "ratio": 0.0943,
+      "score": 5.0,
+      "examples": [
+        {
+          "text": "毫无诚信的制作人，天天画大饼吹牛皮，不好好把主线剧情做好，天天研究你那b可有可无的联机，游戏没做完就开始想上手机端，还去成立新工作室去做其他小游戏，纯种傻逼一…",
+          "voted_up": false,
+          "votes_up": 71,
+          "created_at": 1789733330,
+          "playtime_hours": 94.4,
+          "categories": [
+            "story_character",
+            "environment"
+          ]
+        },
+        {
+          "text": "优点：做工精良，细节满满 1. 整体美术水准高 2. 箱庭设计：很多小巧思的地图细节，和近道安排。且整体都保持高水准。下的功夫不少 3. 剧情：大剧情合理不降…",
+          "voted_up": true,
+          "votes_up": 2,
+          "created_at": 1791184395,
+          "playtime_hours": 76.2,
+          "categories": [
+            "monetization",
+            "story_character",
+            "environment"
+          ]
+        },
+        {
+          "text": "为纪念工作室不断跳票，特此鼓励",
+          "voted_up": false,
+          "votes_up": 1,
+          "created_at": 1791476334,
+          "playtime_hours": 19.9,
+          "categories": [
+            "environment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "数值与平衡",
+      "count": 4,
+      "ratio": 0.0755,
+      "score": 4.0,
+      "examples": [
+        {
+          "text": "“我被彻底打败了” 这是我在卸载恶意不息前最后的想法，但是我并不觉得羞耻于此，我只是深深的感受到来自开发组的 恶意。 游戏整体评分 8/10 恶意不息可以说是…",
+          "voted_up": false,
+          "votes_up": 22,
+          "created_at": 1791263421,
+          "playtime_hours": 16.3,
+          "categories": [
+            "balance",
+            "monetization"
+          ]
+        },
+        {
+          "text": "游戏美术，地图设计，武器动作模组打击感顶级，但是怪物交互就是一坨屎。 1：随便一个小怪都是常驻韧性和出招霸体，加上读指令后跳和各种快慢刀，导致虽然游戏设计了很…",
+          "voted_up": false,
+          "votes_up": 2,
+          "created_at": 1790859434,
+          "playtime_hours": 2.4,
+          "categories": [
+            "balance"
+          ]
+        },
+        {
+          "text": "本质上是刷子暗黑游戏，但是装备战力没有明显梯级化，总是感觉boss之间战力有鸿沟，闪避形同虚设只能算是小段位移，大多数boss都是追击型攻击方式而且是锁定玩家…",
+          "voted_up": false,
+          "votes_up": 1,
+          "created_at": 1791470555,
+          "playtime_hours": 56.5,
+          "categories": [
+            "balance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monetization",
+      "name": "氪金与卡池",
+      "count": 2,
+      "ratio": 0.0377,
+      "score": 2.4,
+      "examples": [
+        {
+          "text": "“我被彻底打败了” 这是我在卸载恶意不息前最后的想法，但是我并不觉得羞耻于此，我只是深深的感受到来自开发组的 恶意。 游戏整体评分 8/10 恶意不息可以说是…",
+          "voted_up": false,
+          "votes_up": 22,
+          "created_at": 1791263421,
+          "playtime_hours": 16.3,
+          "categories": [
+            "balance",
+            "monetization"
+          ]
+        },
+        {
+          "text": "优点：做工精良，细节满满 1. 整体美术水准高 2. 箱庭设计：很多小巧思的地图细节，和近道安排。且整体都保持高水准。下的功夫不少 3. 剧情：大剧情合理不降…",
+          "voted_up": true,
+          "votes_up": 2,
+          "created_at": 1791184395,
+          "playtime_hours": 76.2,
+          "categories": [
+            "monetization",
+            "story_character",
+            "environment"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "毫无诚信的制作人，天天画大饼吹牛皮，不好好把主线剧情做好，天天研究你那b可有可无的联机，游戏没做完就开始想上手机端，还去成立新工作室去做其他小游戏，纯种傻逼一个。果然吃微软大锅饭还要砸锅的就不是什么好东西",
+      "voted_up": false,
+      "votes_up": 71,
+      "created_at": 1789733330,
+      "playtime_hours": 94.4,
+      "categories": [
+        "story_character",
+        "environment"
+      ]
+    },
+    {
+      "text": "“我被彻底打败了” 这是我在卸载恶意不息前最后的想法，但是我并不觉得羞耻于此，我只是深深的感受到来自开发组的 恶意。 游戏整体评分 8/10 恶意不息可以说是我玩过最棒的俯视角角色扮演游戏之一，游戏极其特殊像油画般的美术风格一下子就吸引了我，迫不及待地拉上了我的女朋友一起踏入这片土地。 令人惊讶的是，游戏的系统展现出了超出预期的野心，游戏有着大量且丰富的系统，远不止于战斗，城镇建设，物资收集，每日任务，它在试图建立一个全新的 机制闭环，把市面上很多常见的元素，打造成一套新的…",
+      "voted_up": false,
+      "votes_up": 22,
+      "created_at": 1791263421,
+      "playtime_hours": 16.3,
+      "categories": [
+        "balance",
+        "monetization"
+      ]
+    },
+    {
+      "text": "高质量的游戏，极具潜力，哪怕是未完成的游戏也具备了较好的内容。 差评是因为反复的跳票诈骗，消费信誉，不值得拥有玩家的支持。 如果1.0的内容出现任何一丝问题，都会因为之前的所作所为而被反噬",
+      "voted_up": false,
+      "votes_up": 14,
+      "created_at": 1790921420,
+      "playtime_hours": 2.1,
+      "categories": []
+    },
+    {
+      "text": "金玉其外败絮其中，卖相很好，系统看似很丰富，实际体验几乎在所有细节上都会恰到好处地恶心到玩家，结果就是所有体验都被毁得干干净净。典型的一手好牌打得稀烂，令人唏嘘。",
+      "voted_up": false,
+      "votes_up": 11,
+      "created_at": 1791011681,
+      "playtime_hours": 10.2,
+      "categories": []
+    },
+    {
+      "text": "虚假宣传，欺骗玩家 做不出来不要说 傻逼游戏",
+      "voted_up": false,
+      "votes_up": 5,
+      "created_at": 1790604347,
+      "playtime_hours": 21.4,
+      "categories": []
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "不知道你们是怎么了解这游戏的，反正我是冲着奥日的口碑才来的，目前玩起来还不错，地图设计和美术依旧很绝，但是有一点很难受，就是拿手柄玩有极其频繁的震动，真的很难理解，我就砍个树挖个矿，震的我手都发麻，我用的Xbox手柄，玩其他游戏从没这个情况，所以大概率是这个游戏设计的问题，望改善",
+      "voted_up": true,
+      "votes_up": 9,
+      "created_at": 1791190514,
+      "playtime_hours": 7.1,
+      "categories": []
+    },
+    {
+      "text": "游戏打击感还不错，地图边缘极容易跳崖，锁定点经常飘，打三个以上怪容易丢失目标",
+      "voted_up": true,
+      "votes_up": 3,
+      "created_at": 1790173929,
+      "playtime_hours": 67.0,
+      "categories": []
+    },
+    {
+      "text": "之后做什么都会成功的",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1791259685,
+      "playtime_hours": 9.2,
+      "categories": []
+    },
+    {
+      "text": "优点：做工精良，细节满满 1. 整体美术水准高 2. 箱庭设计：很多小巧思的地图细节，和近道安排。且整体都保持高水准。下的功夫不少 3. 剧情：大剧情合理不降智、细节呼应、小剧情不枯燥，有血有肉、隐藏细节多，对剧情内容有反复佐证和托举。 4. 游戏内容丰富：武器动作多，不是简单换皮。每把武器都有其适用的方法、怪物种类多，每种特点鲜明。 重点说说瑕疵，也就是我认为大多数人不喜欢这个游戏的原因：交互+刷子游戏本源上有冲突。 1. 刷子游戏要求怪物必须有对应的强度才能有匹配的交互…",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1791184395,
+      "playtime_hours": 76.2,
+      "categories": [
+        "monetization",
+        "story_character",
+        "environment"
+      ]
+    },
+    {
+      "text": "等2027年再说吧",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1790566085,
+      "playtime_hours": 3.9,
+      "categories": []
+    }
+  ],
+  "fetch_stop_reason": "window_edge"
+}

@@ -1,0 +1,272 @@
+{
+  "slug": "demo-beta",
+  "name": "示例游戏·乙",
+  "source": "demo",
+  "steam_appid": null,
+  "window_days": 30,
+  "comment_count": 64,
+  "positive_count": 45,
+  "negative_count": 19,
+  "positive_ratio": 0.7031,
+  "sentiment_score": 0.4062,
+  "tagged_ratio": 0.0781,
+  "daily": [
+    {
+      "date": "2026-09-16",
+      "count": 1
+    },
+    {
+      "date": "2026-09-17",
+      "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 2
+    },
+    {
+      "date": "2026-09-19",
+      "count": 2
+    },
+    {
+      "date": "2026-09-20",
+      "count": 2
+    },
+    {
+      "date": "2026-09-21",
+      "count": 2
+    },
+    {
+      "date": "2026-09-22",
+      "count": 2
+    },
+    {
+      "date": "2026-09-23",
+      "count": 2
+    },
+    {
+      "date": "2026-09-24",
+      "count": 2
+    },
+    {
+      "date": "2026-09-25",
+      "count": 2
+    },
+    {
+      "date": "2026-09-26",
+      "count": 2
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 2
+    },
+    {
+      "date": "2026-09-29",
+      "count": 2
+    },
+    {
+      "date": "2026-09-30",
+      "count": 2
+    },
+    {
+      "date": "2026-10-01",
+      "count": 2
+    },
+    {
+      "date": "2026-10-02",
+      "count": 2
+    },
+    {
+      "date": "2026-10-03",
+      "count": 2
+    },
+    {
+      "date": "2026-10-04",
+      "count": 2
+    },
+    {
+      "date": "2026-10-05",
+      "count": 2
+    },
+    {
+      "date": "2026-10-06",
+      "count": 2
+    },
+    {
+      "date": "2026-10-07",
+      "count": 2
+    },
+    {
+      "date": "2026-10-08",
+      "count": 8
+    },
+    {
+      "date": "2026-10-09",
+      "count": 2
+    },
+    {
+      "date": "2026-10-10",
+      "count": 2
+    },
+    {
+      "date": "2026-10-11",
+      "count": 2
+    },
+    {
+      "date": "2026-10-12",
+      "count": 2
+    },
+    {
+      "date": "2026-10-13",
+      "count": 2
+    },
+    {
+      "date": "2026-10-14",
+      "count": 2
+    },
+    {
+      "date": "2026-10-15",
+      "count": 2
+    }
+  ],
+  "anomaly_days": [
+    "2026-10-08"
+  ],
+  "categories": [
+    {
+      "id": "story_character",
+      "name": "剧情与角色",
+      "count": 13,
+      "ratio": 2.6,
+      "score": 11.7,
+      "examples": [
+        {
+          "text": "示例评论：剧情节奏比上个版本顺，配音和演出是明显的加分项。",
+          "voted_up": null,
+          "votes_up": 14,
+          "created_at": 1791802800,
+          "playtime_hours": 108.0,
+          "categories": [
+            "story_character"
+          ]
+        },
+        {
+          "text": "示例评论：新版本的数值调整幅度不小，早先推出的角色强度明显落后了一截。",
+          "voted_up": null,
+          "votes_up": 3,
+          "created_at": 1791716400,
+          "playtime_hours": 25.5,
+          "categories": [
+            "story_character"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "数值与平衡",
+      "count": 8,
+      "ratio": 1.6,
+      "score": 8.0,
+      "examples": [
+        {
+          "text": "示例评论：新版本的数值调整幅度不小，早先推出的角色强度明显落后了一截。",
+          "voted_up": null,
+          "votes_up": 11,
+          "created_at": 1791630000,
+          "playtime_hours": 85.5,
+          "categories": [
+            "balance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "name": "运营与活动",
+      "count": 5,
+      "ratio": 1.0,
+      "score": 5.5,
+      "examples": [
+        {
+          "text": "示例评论：运营的沟通节奏偏慢，建议多公开一些后续版本规划。",
+          "voted_up": null,
+          "votes_up": 6,
+          "created_at": 1791457200,
+          "playtime_hours": 48.0,
+          "categories": [
+            "operation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bug_perf",
+      "name": "BUG 与性能",
+      "count": 2,
+      "ratio": 0.4,
+      "score": 2.2,
+      "examples": [
+        {
+          "text": "示例评论：这次更新之后偶尔会掉帧，重进一次就恢复正常，整体还能接受。",
+          "voted_up": null,
+          "votes_up": 5,
+          "created_at": 1791284400,
+          "playtime_hours": 40.5,
+          "categories": [
+            "bug_perf"
+          ]
+        }
+      ]
+    }
+  ],
+  "top_negative": [
+    {
+      "text": "示例评论：新版本的数值调整幅度不小，早先推出的角色强度明显落后了一截。",
+      "voted_up": false,
+      "votes_up": 8,
+      "created_at": 1791889200,
+      "playtime_hours": 63.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：这次更新之后偶尔会掉帧，重进一次就恢复正常，整体还能接受。",
+      "voted_up": false,
+      "votes_up": 2,
+      "created_at": 1791630000,
+      "playtime_hours": 18.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：运营的沟通节奏偏慢，建议多公开一些后续版本规划。",
+      "voted_up": false,
+      "votes_up": 5,
+      "created_at": 1791370800,
+      "playtime_hours": 40.5,
+      "categories": []
+    }
+  ],
+  "top_positive": [
+    {
+      "text": "示例评论：剧情节奏比上个版本顺，配音和演出是明显的加分项。",
+      "voted_up": true,
+      "votes_up": 12,
+      "created_at": 1791889200,
+      "playtime_hours": 93.0,
+      "categories": []
+    },
+    {
+      "text": "示例评论：联机匹配速度不错，遇到的队友整体素质在线。",
+      "voted_up": true,
+      "votes_up": 2,
+      "created_at": 1791630000,
+      "playtime_hours": 18.0,
+      "categories": []
+    }
+  ],
+  "fetch_stop_reason": "exhausted",
+  "dataset_note": "示例数据：全部为合成构造，与任何真实产品、真实用户无关，仅用于演示页面结构。"
+}
