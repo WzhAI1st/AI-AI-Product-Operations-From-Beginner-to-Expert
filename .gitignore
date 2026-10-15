@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 原始采集数据不入库，保证仓库干净且合规
+data/raw/
+data/processed/
+# 真实产物不入库：可能包含用户评测原文，进历史就清不掉了。
+# 仓库里演示用的是 data/demo/ 下的合成数据。
+data/public/
+
+# 密钥与本机配置
+.env
+.env.*
+*.local.yaml
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

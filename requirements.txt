@@ -1,0 +1,5 @@
+requests>=2.31
+PyYAML>=6.0
+tqdm>=4.66
+# Windows 不自带 IANA 时区库，zoneinfo 依赖它来解析 Asia/Shanghai
+tzdata>=2024.1
